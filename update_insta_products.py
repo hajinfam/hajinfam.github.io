@@ -6,15 +6,15 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 # -----------------------
-# 환경변수 / 기본 설정
+# 환경 변수 / 기본 설정
 # -----------------------
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-EXCEL_PATH = "products.xlsx"          # H:\hajinfam.github.io\products.xlsx
-HTML_PATH = "insta/index.html"        # H:\hajinfam.github.io\insta\index.html
+EXCEL_PATH = "products.xlsx"          # 엑셀 파일
+HTML_PATH  = "insta/index.html"       # 랜딩 페이지 html
 
 REQUIRED_COLUMNS = [
     "no",
@@ -26,23 +26,28 @@ REQUIRED_COLUMNS = [
 ]
 
 # -----------------------
-# GPT: shortTitle 생성
+# GPT: shortTitle + productDescription 동시 생성
 # -----------------------
-def generate_short_title(product_name: str) -> str:
+def generate_short_title_and_desc(product_name: str) -> tuple[str, str]:
+    """
+    전체 상품명(productName)을 받아
+    - shortTitle (최대 12~15자)
+    - productDescription (40~80자 정도 한두 문장)
+    을 한 번에 생성
+    """
     if not product_name:
-        return ""
+        return "", ""
 
     system_msg = (
-        "너는 한국 온라인 쇼핑몰의 홍보 담당자야. "
-        "인스타그램/랜딩페이지용 아주 짧은 제목을 만들어라. "
-        "규칙:\n"
-        "- 최대 12~15자\n"
-        "- 브랜드명 제거\n"
-        "- 핵심 기능 위주\n"
-        "- 이모지, 마침표 금지"
+        "너는 한국 온라인 쇼핑몰의 감성 마케팅 카피라이터야.\n"
+        "각 상품에 대해 다음 두 가지를 만들어라.\n"
+        "1) shortTitle: 최대 12~15자, 브랜드명 제외, 핵심 효능/용도 중심, 이모지/마침표 없음.\n"
+        "2) productDescription: 40~80자, 1~2문장, 고객의 고민을 공감하며 구매를 유도.\n"
+        "출력 형식은 반드시 JSON 한 줄로만:\n"
+        "{\"shortTitle\": \"...\", \"productDescription\": \"...\"}"
     )
 
-    user_msg = f"상품 이름: {product_name}\n한 줄 제목 생성:"
+    user_msg = f"상품명: {product_name}\n해당 규칙에 맞게 JSON 한 줄만 출력해줘."
 
     resp = client.chat.completions.create(
         model="gpt-4.1-mini",
@@ -50,14 +55,36 @@ def generate_short_title(product_name: str) -> str:
             {"role": "system", "content": system_msg},
             {"role": "user", "content": user_msg},
         ],
-        max_tokens=50,
+        max_tokens=200,
     )
 
     text = resp.choices[0].message.content.strip()
-    return text.splitlines()[0].strip()
+
+    # 작은따옴표로 올 수도 있으니 JSON 파싱용으로 변환
+    if text.startswith("```"):
+        text = text.strip("`")
+        lines = text.splitlines()
+        # ```json 같은 헤더 제거
+        if lines and "{" not in lines[0]:
+            text = "\n".join(lines[1:])
+    text = text.strip()
+
+    try:
+        data = json.loads(text.replace("'", "\""))
+    except Exception:
+        # 혹시 실패하면 안전하게 fallback
+        return product_name[:15], ""
+
+    short_title = str(data.get("shortTitle", "")).strip()
+    desc = str(data.get("productDescription", "")).strip()
+
+    if not short_title:
+        short_title = product_name[:15]
+
+    return short_title, desc
 
 # -----------------------
-# index.html products 교체
+# HTML 안 products 배열 교체
 # -----------------------
 def replace_products_in_html(products: list[dict]):
     with open(HTML_PATH, "r", encoding="utf-8") as f:
@@ -67,10 +94,10 @@ def replace_products_in_html(products: list[dict]):
     end_tag = "// === AUTO_GENERATED_PRODUCTS_END ==="
 
     if start_tag not in html or end_tag not in html:
-        raise RuntimeError("index.html 에 자동 구간 태그가 없습니다.")
+        raise RuntimeError("index.html 에 자동 구간 태그를 찾을 수 없습니다.")
 
     start_idx = html.index(start_tag)
-    end_idx = html.index(end_tag, start_idx)
+    end_idx = html.index(end_tag, start_idx) + len(end_tag)
 
     before = html[:start_idx]
     after = html[end_idx:]
@@ -88,20 +115,22 @@ def replace_products_in_html(products: list[dict]):
     with open(HTML_PATH, "w", encoding="utf-8") as f:
         f.write(new_html)
 
-    print(f"[DONE] insta/index.html 에 {len(products)}개의 상품이 반영되었습니다.")
+    print(f"[DONE] insta/index.html 에 {len(products)}개의 상품을 반영했습니다.")
 
 # -----------------------
-# 메인 처리
+# 메인 로직
 # -----------------------
 def main():
+    # 1) 엑셀 읽기
     if not os.path.exists(EXCEL_PATH):
-        raise FileNotFoundError(f"엑셀 없음: {EXCEL_PATH}")
+        raise FileNotFoundError(f"엑셀 파일을 찾을 수 없습니다: {EXCEL_PATH}")
 
     df = pd.read_excel(EXCEL_PATH)
-    if df.empty:
-        raise RuntimeError("엑셀에 데이터가 없습니다.")
 
-    # 필요한 컬럼 자동 생성
+    if df.empty:
+        raise RuntimeError("products.xlsx 에 데이터가 없습니다.")
+
+    # 필요한 컬럼이 없으면 생성
     for col in REQUIRED_COLUMNS:
         if col not in df.columns:
             if col == "no":
@@ -109,54 +138,71 @@ def main():
             else:
                 df[col] = ""
 
+    # 2) 비어 있는 shortTitle / productDescription을 GPT로 채우기
     updated = False
+    for idx, row in df.iterrows():
+        name = str(row.get("productName", "")).strip()
+        if not name:
+            continue
+
+        st_raw = row.get("shortTitle", "")
+        if isinstance(st_raw, float) and math.isnan(st_raw):
+            st_raw = ""
+        short_title = str(st_raw).strip()
+
+        desc_raw = row.get("productDescription", "")
+        if isinstance(desc_raw, float) and math.isnan(desc_raw):
+            desc_raw = ""
+        desc = str(desc_raw).strip()
+
+        if not short_title or not desc:
+            new_short, new_desc = generate_short_title_and_desc(name)
+            if new_short:
+                df.at[idx, "shortTitle"] = new_short
+            if new_desc:
+                df.at[idx, "productDescription"] = new_desc
+            updated = True
+            print(f"[GPT] no={row.get('no')} → shortTitle='{new_short}', desc='{new_desc[:25]}…'")
+
+    # 변경사항이 있으면 엑셀 저장
+    if updated:
+        df.to_excel(EXCEL_PATH, index=False)
+        print("[INFO] products.xlsx 에 shortTitle / productDescription 을 업데이트했습니다.")
+
+    # 3) HTML에 넣을 products 리스트 생성
     products: list[dict] = []
 
     for idx, row in df.iterrows():
-        # 번호
-        no = int(row["no"])
-        # 전체 상품명
-        name = str(row["productName"]).strip()
+        no_val = row.get("no")
+        try:
+            no = int(no_val)
+        except Exception:
+            continue
 
-        # --- shortTitle 읽기 (NaN 처리 포함) ---
-        raw_short = row.get("shortTitle", "")
-        if pd.isna(raw_short):
-            short_title = ""
-        else:
-            short_title = str(raw_short).strip()
+        name = str(row.get("productName", "")).strip()
+        st = str(row.get("shortTitle", "")).strip()
+        desc = str(row.get("productDescription", "")).strip()
+        link = str(row.get("link", "")).strip()
+        image_url = str(row.get("mainImage", "")).strip()
 
-        # 비어 있으면 GPT로 생성
-        if not short_title:
-            short_title = generate_short_title(name)
-            df.at[idx, "shortTitle"] = short_title
-            updated = True
-            print(f"[GPT] {no}번 shortTitle => {short_title}")
+        if not name or not link:
+            continue  # 필수 정보 없으면 건너뜀
 
-        desc = str(row["productDescription"]).strip()
-        link = str(row["link"]).strip()
-        image_url = str(row["mainImage"]).strip()
+        title_text = f"{no}번. {st if st else name[:15]}"
 
         products.append(
             {
                 "no": no,
-                "title": f"{no}번. {short_title}",
+                "title": title_text,
                 "description": desc,
                 "link": link,
                 "imageUrl": image_url,
             }
         )
 
-    # GPT로 채운 shortTitle이 있으면 엑셀 저장
-    if updated:
-        df.to_excel(EXCEL_PATH, index=False)
-        print("[INFO] products.xlsx 에 shortTitle 업데이트를 저장했습니다.")
-    else:
-        print("[INFO] 새로 채울 shortTitle 이 없어 엑셀 저장은 생략했습니다.")
-
-    # 번호 정렬
     products.sort(key=lambda x: x["no"])
 
-    # HTML 교체
+    # 4) index.html 교체
     replace_products_in_html(products)
 
 
