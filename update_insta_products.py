@@ -11,11 +11,15 @@ from openai import OpenAI
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise RuntimeError("OPENAI_API_KEY 가 설정되어 있지 않습니다. .env 를 확인하세요.")
+
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 EXCEL_PATH = "products.xlsx"          # 엑셀 파일
 HTML_PATH  = "insta/index.html"       # 랜딩 페이지 html
 
+# 엑셀에 있어야 하는 컬럼들
 REQUIRED_COLUMNS = [
     "no",
     "productName",
@@ -60,19 +64,20 @@ def generate_short_title_and_desc(product_name: str) -> tuple[str, str]:
 
     text = resp.choices[0].message.content.strip()
 
-    # 작은따옴표로 올 수도 있으니 JSON 파싱용으로 변환
+    # ```json ... ``` 로 나오는 경우 처리
     if text.startswith("```"):
         text = text.strip("`")
         lines = text.splitlines()
-        # ```json 같은 헤더 제거
+        # 첫 줄에 ```json 같은 게 있으면 제거
         if lines and "{" not in lines[0]:
             text = "\n".join(lines[1:])
     text = text.strip()
 
     try:
+        # 작은따옴표로 올 경우까지 대비해서 치환 후 파싱
         data = json.loads(text.replace("'", "\""))
     except Exception:
-        # 혹시 실패하면 안전하게 fallback
+        # 파싱 실패 시 최소한의 fallback
         return product_name[:15], ""
 
     short_title = str(data.get("shortTitle", "")).strip()
@@ -82,6 +87,7 @@ def generate_short_title_and_desc(product_name: str) -> tuple[str, str]:
         short_title = product_name[:15]
 
     return short_title, desc
+
 
 # -----------------------
 # HTML 안 products 배열 교체
@@ -96,6 +102,7 @@ def replace_products_in_html(products: list[dict]):
     if start_tag not in html or end_tag not in html:
         raise RuntimeError("index.html 에 자동 구간 태그를 찾을 수 없습니다.")
 
+    # start_tag 위치부터 end_tag 끝까지를 통째로 교체
     start_idx = html.index(start_tag)
     end_idx = html.index(end_tag, start_idx) + len(end_tag)
 
@@ -117,6 +124,7 @@ def replace_products_in_html(products: list[dict]):
 
     print(f"[DONE] insta/index.html 에 {len(products)}개의 상품을 반영했습니다.")
 
+
 # -----------------------
 # 메인 로직
 # -----------------------
@@ -134,6 +142,7 @@ def main():
     for col in REQUIRED_COLUMNS:
         if col not in df.columns:
             if col == "no":
+                # 번호가 없으면 1부터 자동 부여
                 df[col] = list(range(1, len(df) + 1))
             else:
                 df[col] = ""
@@ -155,6 +164,7 @@ def main():
             desc_raw = ""
         desc = str(desc_raw).strip()
 
+        # 둘 중 하나라도 비어 있으면 GPT 호출
         if not short_title or not desc:
             new_short, new_desc = generate_short_title_and_desc(name)
             if new_short:
@@ -162,7 +172,10 @@ def main():
             if new_desc:
                 df.at[idx, "productDescription"] = new_desc
             updated = True
-            print(f"[GPT] no={row.get('no')} → shortTitle='{new_short}', desc='{new_desc[:25]}…'")
+            print(
+                f"[GPT] no={row.get('no')} → "
+                f"shortTitle='{new_short}', desc='{new_desc[:25]}…'"
+            )
 
     # 변경사항이 있으면 엑셀 저장
     if updated:
@@ -185,24 +198,27 @@ def main():
         link = str(row.get("link", "")).strip()
         image_url = str(row.get("mainImage", "")).strip()
 
+        # 필수 정보 없으면 건너뜀 (상품명/링크)
         if not name or not link:
-            continue  # 필수 정보 없으면 건너뜀
+            continue
 
+        # 카드에 보이는 제목: "1번. 쇼트타이틀"
         title_text = f"{no}번. {st if st else name[:15]}"
 
         products.append(
             {
                 "no": no,
-                "title": title_text,
-                "description": desc,
-                "link": link,
-                "imageUrl": image_url,
+                "title": title_text,        # 화면에 굵게 보이는 제목
+                "description": desc,        # 한두 줄 설명
+                "link": link,               # 네이버 스토어 링크
+                "imageUrl": image_url,      # 썸네일 이미지 (mainImage 컬럼에서)
             }
         )
 
+    # 번호 순 정렬
     products.sort(key=lambda x: x["no"])
 
-    # 4) index.html 교체
+    # 4) index.html 의 products 배열 교체
     replace_products_in_html(products)
 
 
