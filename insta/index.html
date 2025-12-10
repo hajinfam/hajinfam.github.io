@@ -200,7 +200,7 @@
       gap: 10px;
       background: rgba(15, 23, 42, 0.95);
       border-radius: var(--radius-xl);
-      padding: 10px 12px 10px 12px;
+      padding: 8px 12px 9px;
       border: 1px solid rgba(31, 41, 55, 0.95);
       transition: transform 0.14s ease, box-shadow 0.14s ease, border-color 0.14s ease, background 0.14s ease;
     }
@@ -210,6 +210,26 @@
       box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
       border-color: rgba(55, 65, 81, 1);
       background: radial-gradient(circle at top left, rgba(16, 185, 129, 0.08), rgba(15, 23, 42, 0.98));
+    }
+
+    .item-thumb {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      overflow: hidden;
+      background: #020617;
+      border: 1px solid rgba(30, 64, 175, 0.7);
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
 
     .item-main {
@@ -305,7 +325,6 @@
       color: var(--accent);
     }
 
-    /* 푸터 */
     .footer {
       margin-top: 26px;
       font-size: 11px;
@@ -328,7 +347,7 @@
       }
 
       .item {
-        align-items: flex-start;
+        align-items: center;
       }
 
       .btn span {
@@ -390,34 +409,26 @@
 </div>
 
 <script>
-  // ============================
-  // 상품 데이터 샘플
-  // 이후 파이썬 자동화 시, 이 배열만 자동 생성하면 됩니다.
-  // ============================
+  // === AUTO_GENERATED_PRODUCTS_START ===
+  // 이 products 배열은 나중에 파이썬 스크립트(update_insta_products.py)가
+  // 엑셀(products.xlsx) 내용을 기반으로 자동으로 덮어쓸 예정입니다.
   const products = [
     {
-      number: 1,
-      shortTitle: "다용도 방한양말",
-      title: "1번. 다용도 방한양말",
-      description: "집밖은 어디서나 따뜻하게, 미끄럼 방지까지.",
-      url: "https://naver.me/xxxxxxx1"
+      "no": 1,
+      "shortTitle": "다용도 방한양말",
+      "description": "집밖·집안 어디서나 따뜻하게, 미끄럼 방지까지.",
+      "url": "https://naver.me/예시1",
+      "mainImage": "https://via.placeholder.com/200x200.png?text=1"
     },
     {
-      number: 2,
-      shortTitle: "발뒤꿈치 보호 인솔",
-      title: "2번. 발뒤꿈치 보호 인솔",
-      description: "장시간 서 있어도 편안한 워킹 쿠션 인솔.",
-      url: "https://naver.me/xxxxxxx2"
-    },
-    {
-      number: 3,
-      shortTitle: "대용량 여행 캐리어",
-      title: "3번. 64cm 대형 여행 캐리어",
-      description: "신혼여행부터 출장까지 한 번에 수납 가능한 똑똑한 캐리어.",
-      url: "https://naver.me/xxxxxxx3"
+      "no": 2,
+      "shortTitle": "발뒤꿈치 보호 인솔",
+      "description": "장시간 서 있어도 편안한 워킹 쿠션 인솔.",
+      "url": "https://naver.me/예시2",
+      "mainImage": "https://via.placeholder.com/200x200.png?text=2"
     }
-    // ...여기에 계속 추가 (파이썬 자동 생성 대상)
   ];
+  // === AUTO_GENERATED_PRODUCTS_END ===
 
   const listEl = document.getElementById("list");
   const searchInput = document.getElementById("searchInput");
@@ -427,6 +438,17 @@
     const item = document.createElement("article");
     item.className = "item";
 
+    // 썸네일
+    const thumb = document.createElement("div");
+    thumb.className = "item-thumb";
+
+    const img = document.createElement("img");
+    const imgUrl = product.mainImage || "";
+    img.src = imgUrl || "https://via.placeholder.com/200x200.png?text=IMG";
+    img.alt = product.shortTitle || "";
+    thumb.appendChild(img);
+
+    // 텍스트 영역
     const main = document.createElement("div");
     main.className = "item-main";
 
@@ -434,21 +456,22 @@
     num.className = "item-number";
     const pill = document.createElement("span");
     pill.className = "item-number-pill";
-    pill.textContent = product.number + "번";
+    pill.textContent = product.no + "번";
     num.appendChild(pill);
 
     const title = document.createElement("div");
     title.className = "item-title";
-    title.textContent = product.title;
+    title.textContent = product.no + "번. " + (product.shortTitle || "");
 
     const desc = document.createElement("div");
     desc.className = "item-desc";
-    desc.textContent = product.description;
+    desc.textContent = product.description || "";
 
     main.appendChild(num);
     main.appendChild(title);
     main.appendChild(desc);
 
+    // 버튼
     const cta = document.createElement("div");
     cta.className = "item-cta";
 
@@ -462,6 +485,7 @@
 
     cta.appendChild(btn);
 
+    item.appendChild(thumb);
     item.appendChild(main);
     item.appendChild(cta);
 
@@ -490,15 +514,13 @@
     const q = normalize(query);
     if (!q) return products;
 
-    // "1번", "1", "01" 등 숫자만 뽑아서 비교
     const numMatch = q.replace(/[^0-9]/g, "");
     return products.filter(p => {
-      const numberString = String(p.number);
+      const numberString = String(p.no);
 
-      const matchNumber =
-        numMatch && numberString === numMatch;
+      const matchNumber = numMatch && numberString === numMatch;
 
-      const text = `${p.title} ${p.shortTitle} ${p.description}`;
+      const text = `${p.no}번 ${p.shortTitle} ${p.description}`;
       const matchText = normalize(text).includes(q);
 
       return matchNumber || matchText;
@@ -515,8 +537,7 @@
     renderList(filtered);
   });
 
-  // 인스타에서 "1번. 다용도 방한양말" 같이 복사한 경우 대비:
-  // 페이지 진입시 URL에 ?q=1번 같은 쿼리가 있으면 자동 검색
+  // ?q=1번 처럼 들어오면 자동 검색
   (function handleInitialQuery() {
     const params = new URLSearchParams(window.location.search);
     const q = params.get("q");
