@@ -1,0 +1,26 @@
+
+# Service account(google Json)
+hajinfam-products-9996c020862f.json
+.env
+insta-link-cred.json
+google-service-account.json
+token_*.json
+*secret*.json
+insta_auto_post.py
+get_ig_user_id.py
+graph_test.rb
+update_insta_products.py
+sheet_to_excel.py
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Excel auto-generated
+products.xlsx
+
+# VSCode settings (optional)
+.vscode/
+
+# Backup files
+*_backup/

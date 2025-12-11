@@ -5,6 +5,10 @@ import pandas as pd
 from dotenv import load_dotenv
 from openai import OpenAI
 
+# Google Sheets
+import gspread
+from google.oauth2.service_account import Credentials
+
 # -----------------------
 # 환경 변수 / 기본 설정
 # -----------------------
@@ -19,15 +23,48 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 EXCEL_PATH = "products.xlsx"          # 엑셀 파일
 HTML_PATH  = "insta/index.html"       # 랜딩 페이지 html
 
-# 엑셀 / 구글시트에 있어야 하는 컬럼들
+# 엑셀/시트에 있어야 하는 컬럼들
 REQUIRED_COLUMNS = [
     "no",
     "productName",
-    "productUrl",          # 🔹 link 대신 productUrl 사용
-    "mainImage",
-    "shortTitle",
     "productDescription",
+    "mainImage",
+    "productUrl",     # ✅ link 대신 productUrl 사용
+    "shortTitle",
 ]
+
+# Google Sheets 설정
+GOOGLE_SHEET_ID = os.getenv("GOOGLE_SHEET_ID")
+SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+
+# REPO_ROOT 기준으로 JSON 파일 찾기 (상대 경로 방지)
+REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
+if SERVICE_ACCOUNT_FILE and not os.path.isabs(SERVICE_ACCOUNT_FILE):
+    SERVICE_ACCOUNT_PATH = os.path.join(REPO_ROOT, SERVICE_ACCOUNT_FILE)
+else:
+    SERVICE_ACCOUNT_PATH = SERVICE_ACCOUNT_FILE
+
+
+def get_google_sheet():
+    """
+    Google Sheet 핸들을 돌려준다.
+    (.env 값이 없으면 None)
+    """
+    if not GOOGLE_SHEET_ID or not SERVICE_ACCOUNT_PATH:
+        print("[SHEET] GOOGLE_SHEET_ID 또는 GOOGLE_SERVICE_ACCOUNT_JSON 이 없어, 시트 업데이트는 생략됩니다.")
+        return None
+
+    creds = Credentials.from_service_account_file(
+        SERVICE_ACCOUNT_PATH,
+        scopes=SCOPES,
+    )
+    gc = gspread.authorize(creds)
+    sh = gc.open_by_key(GOOGLE_SHEET_ID)
+    # 첫 번째 시트를 사용 (필요하면 이름으로 변경)
+    ws = sh.sheet1
+    return ws
+
 
 # -----------------------
 # GPT: shortTitle + productDescription 동시 생성
@@ -64,17 +101,15 @@ def generate_short_title_and_desc(product_name: str) -> tuple[str, str]:
 
     text = resp.choices[0].message.content.strip()
 
-    # ```json ... ``` 로 나오는 경우 처리
+    # ```json ...``` 로 나오는 경우 처리
     if text.startswith("```"):
         text = text.strip("`")
         lines = text.splitlines()
-        # 첫 줄에 ```json 같은 게 있으면 제거
         if lines and "{" not in lines[0]:
             text = "\n".join(lines[1:])
     text = text.strip()
 
     try:
-        # 작은따옴표로 올 경우까지 대비해서 치환 후 파싱
         data = json.loads(text.replace("'", "\""))
     except Exception:
         # 파싱 실패 시 최소한의 fallback
@@ -129,6 +164,17 @@ def replace_products_in_html(products: list[dict]):
 # 메인 로직
 # -----------------------
 def main():
+    # 0) Google Sheet 핸들 준비 (있으면)
+    sheet = get_google_sheet()
+    sheet_col_map = {}
+    if sheet:
+        header = sheet.row_values(1)
+        sheet_col_map = {name: idx + 1 for idx, name in enumerate(header)}
+        # 없으면 나중에 KeyError 나지 않도록
+        if "shortTitle" not in sheet_col_map or "productDescription" not in sheet_col_map:
+            print("[SHEET] shortTitle / productDescription 컬럼을 찾지 못했습니다. 시트 업데이트는 건너뜁니다.")
+            sheet = None
+
     # 1) 엑셀 읽기
     if not os.path.exists(EXCEL_PATH):
         raise FileNotFoundError(f"엑셀 파일을 찾을 수 없습니다: {EXCEL_PATH}")
@@ -142,7 +188,6 @@ def main():
     for col in REQUIRED_COLUMNS:
         if col not in df.columns:
             if col == "no":
-                # 번호가 없으면 1부터 자동 부여
                 df[col] = list(range(1, len(df) + 1))
             else:
                 df[col] = ""
@@ -167,20 +212,38 @@ def main():
         # 둘 중 하나라도 비어 있으면 GPT 호출
         if not short_title or not desc:
             new_short, new_desc = generate_short_title_and_desc(name)
+
             if new_short:
                 df.at[idx, "shortTitle"] = new_short
             if new_desc:
                 df.at[idx, "productDescription"] = new_desc
+
             updated = True
             print(
                 f"[GPT] no={row.get('no')} → "
                 f"shortTitle='{new_short}', desc='{new_desc[:25]}…'"
             )
 
+            # ✅ Google Sheet에도 바로 반영
+            if sheet:
+                sheet_row = idx + 2  # 헤더가 1행이므로 +2
+                try:
+                    st_col = sheet_col_map.get("shortTitle")
+                    desc_col = sheet_col_map.get("productDescription")
+
+                    if st_col and new_short:
+                        sheet.update_cell(sheet_row, st_col, new_short)
+                    if desc_col and new_desc:
+                        sheet.update_cell(sheet_row, desc_col, new_desc)
+                except Exception as e:
+                    print(f"[SHEET] 행 {sheet_row} 업데이트 중 오류: {e}")
+
     # 변경사항이 있으면 엑셀 저장
     if updated:
         df.to_excel(EXCEL_PATH, index=False)
         print("[INFO] products.xlsx 에 shortTitle / productDescription 을 업데이트했습니다.")
+    else:
+        print("[INFO] 채울 shortTitle / productDescription 이 없습니다. (이미 모두 채워짐)")
 
     # 3) HTML에 넣을 products 리스트 생성
     products: list[dict] = []
@@ -193,25 +256,12 @@ def main():
             continue
 
         name = str(row.get("productName", "")).strip()
-
         st = str(row.get("shortTitle", "")).strip()
+        desc = str(row.get("productDescription", "")).strip()
+        product_url = str(row.get("productUrl", "")).strip()
+        image_url = str(row.get("mainImage", "")).strip()
 
-        desc_val = row.get("productDescription", "")
-        if isinstance(desc_val, float) and math.isnan(desc_val):
-            desc_val = ""
-        desc = str(desc_val).strip()
-
-        url_val = row.get("productUrl", "")
-        if isinstance(url_val, float) and math.isnan(url_val):
-            url_val = ""
-        product_url = str(url_val).strip()
-
-        img_val = row.get("mainImage", "")
-        if isinstance(img_val, float) and math.isnan(img_val):
-            img_val = ""
-        image_url = str(img_val).strip()
-
-        # 필수 정보 없으면 건너뜀 (상품명 / URL)
+        # 필수 정보 없으면 건너뜀 (상품명/링크)
         if not name or not product_url:
             continue
 
@@ -221,10 +271,10 @@ def main():
         products.append(
             {
                 "no": no,
-                "title": title_text,   # 화면에 굵게 보이는 제목
-                "description": desc,   # 한두 줄 설명
-                "link": product_url,   # 네이버 스토어 링크 (프론트에서는 key 이름을 link 로 사용)
-                "imageUrl": image_url, # 썸네일 이미지
+                "title": title_text,        # 화면에 굵게 보이는 제목
+                "description": desc,        # 한두 줄 설명
+                "link": product_url,        # 네이버 스토어 링크
+                "imageUrl": image_url,      # 썸네일 이미지
             }
         )
 
