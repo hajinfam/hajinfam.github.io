@@ -19,14 +19,14 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 EXCEL_PATH = "products.xlsx"          # 엑셀 파일
 HTML_PATH  = "insta/index.html"       # 랜딩 페이지 html
 
-# 엑셀에 있어야 하는 컬럼들
+# 엑셀 / 구글시트에 있어야 하는 컬럼들
 REQUIRED_COLUMNS = [
     "no",
     "productName",
-    "productDescription",
+    "productUrl",          # 🔹 link 대신 productUrl 사용
     "mainImage",
-    "link",
     "shortTitle",
+    "productDescription",
 ]
 
 # -----------------------
@@ -193,13 +193,26 @@ def main():
             continue
 
         name = str(row.get("productName", "")).strip()
-        st = str(row.get("shortTitle", "")).strip()
-        desc = str(row.get("productDescription", "")).strip()
-        link = str(row.get("link", "")).strip()
-        image_url = str(row.get("mainImage", "")).strip()
 
-        # 필수 정보 없으면 건너뜀 (상품명/링크)
-        if not name or not link:
+        st = str(row.get("shortTitle", "")).strip()
+
+        desc_val = row.get("productDescription", "")
+        if isinstance(desc_val, float) and math.isnan(desc_val):
+            desc_val = ""
+        desc = str(desc_val).strip()
+
+        url_val = row.get("productUrl", "")
+        if isinstance(url_val, float) and math.isnan(url_val):
+            url_val = ""
+        product_url = str(url_val).strip()
+
+        img_val = row.get("mainImage", "")
+        if isinstance(img_val, float) and math.isnan(img_val):
+            img_val = ""
+        image_url = str(img_val).strip()
+
+        # 필수 정보 없으면 건너뜀 (상품명 / URL)
+        if not name or not product_url:
             continue
 
         # 카드에 보이는 제목: "1번. 쇼트타이틀"
@@ -208,10 +221,10 @@ def main():
         products.append(
             {
                 "no": no,
-                "title": title_text,        # 화면에 굵게 보이는 제목
-                "description": desc,        # 한두 줄 설명
-                "link": link,               # 네이버 스토어 링크
-                "imageUrl": image_url,      # 썸네일 이미지 (mainImage 컬럼에서)
+                "title": title_text,   # 화면에 굵게 보이는 제목
+                "description": desc,   # 한두 줄 설명
+                "link": product_url,   # 네이버 스토어 링크 (프론트에서는 key 이름을 link 로 사용)
+                "imageUrl": image_url, # 썸네일 이미지
             }
         )
 
