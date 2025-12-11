@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>인스타 프로필 링크 | 하진팜 상품번호 검색</title>
+  <title>인스타 프로필 링크 | HAJINFAM 상품번호 검색</title>
 
   <!-- 폰트 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,18 +12,28 @@
 
   <style>
     :root {
-      --bg: #050816;
-      --card-bg: #0f172a;
-      --card-border: #1f2937;
-      --accent: #10b981;
-      --accent-soft: rgba(16, 185, 129, 0.15);
-      --accent-dim: #059669;
-      --text-main: #f9fafb;
-      --text-sub: #9ca3af;
-      --text-muted: #6b7280;
-      --input-bg: #020617;
-      --input-border: #374151;
-      --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.85);
+      /* 전체 톤: 밝은 크림 + 민트 계열 (신뢰/청결/여성 타깃) */
+      --bg: #f5f3ff;
+      --bg-grad-1: #fdfcfb;
+      --bg-grad-2: #f5f3ff;
+      --bg-grad-3: #e0f7f4;
+
+      --card-bg: #ffffff;
+      --card-border: #e5e7eb;
+
+      --accent: #14b8a6;       /* 에메랄드 */
+      --accent-soft: rgba(20, 184, 166, 0.08);
+      --accent-dim: #0d9488;
+
+      --text-main: #111827;    /* 거의 검정 */
+      --text-sub: #4b5563;     /* 진 회색 */
+      --text-muted: #9ca3af;
+
+      --input-bg: #f9fafb;
+      --input-border: #d1d5db;
+
+      --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.08);
+
       --radius-xl: 18px;
       --radius-lg: 14px;
       --radius-pill: 999px;
@@ -35,23 +45,30 @@
       padding: 0;
     }
 
+    html,
+    body {
+      max-width: 100%;
+      overflow-x: hidden; /* 가로 스크롤 방지 */
+    }
+
     body {
       font-family: "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      background: radial-gradient(circle at top, #1f2937 0, #020617 45%, #000 100%);
+      background: radial-gradient(circle at top, var(--bg-grad-3) 0, var(--bg-grad-2) 42%, var(--bg-grad-1) 100%);
       color: var(--text-main);
       min-height: 100vh;
       display: flex;
       justify-content: center;
-      padding: 28px 16px 40px;
+      padding: 24px 14px 36px;
     }
 
     .page {
       width: 100%;
       max-width: 720px;
+      margin: 0 auto;
     }
 
     .header {
-      margin-bottom: 20px;
+      margin-bottom: 18px;
     }
 
     .badge {
@@ -60,28 +77,29 @@
       gap: 6px;
       padding: 4px 11px;
       border-radius: 999px;
-      background: rgba(15, 23, 42, 0.85);
-      border: 1px solid rgba(55, 65, 81, 0.7);
-      color: var(--text-sub);
+      background: #e0f2fe;
+      border: 1px solid #bfdbfe;
+      color: #2563eb;
       font-size: 11px;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .badge-dot {
       width: 6px;
       height: 6px;
       border-radius: 999px;
-      background: var(--accent);
-      box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.3);
+      background: #22c55e;
+      box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.3);
     }
 
     .title {
       font-size: 24px;
       font-weight: 700;
       letter-spacing: -0.03em;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
+      color: var(--text-main);
     }
 
     .subtitle {
@@ -92,31 +110,32 @@
 
     .subtitle strong {
       color: var(--accent);
-      font-weight: 500;
+      font-weight: 600;
     }
 
     .hint {
-      margin-top: 10px;
+      margin-top: 8px;
       font-size: 11px;
       color: var(--text-muted);
     }
 
     .hint code {
-      background: rgba(15, 23, 42, 0.9);
+      background: #eef2ff;
       border-radius: 999px;
       padding: 3px 9px;
-      border: 1px solid rgba(55, 65, 81, 0.7);
+      border: 1px solid #e0e7ff;
       font-size: 11px;
     }
 
     /* 검색 영역 */
     .search-card {
-      margin-top: 22px;
-      background: linear-gradient(135deg, rgba(15, 23, 42, 0.98), rgba(12, 23, 42, 0.98));
+      margin-top: 20px;
+      background: #ffffffcc;
       border-radius: var(--radius-xl);
-      border: 1px solid rgba(55, 65, 81, 0.9);
+      border: 1px solid #e5e7eb;
       padding: 12px 14px;
       box-shadow: var(--shadow-soft);
+      backdrop-filter: blur(8px);
     }
 
     .search-label {
@@ -138,8 +157,8 @@
 
     .search-box:focus-within {
       border-color: var(--accent);
-      box-shadow: 0 0 0 1px rgba(16, 185, 129, 0.45);
-      background: #020617;
+      box-shadow: 0 0 0 1px rgba(20, 184, 166, 0.45);
+      background: #ffffff;
     }
 
     .search-icon {
@@ -173,7 +192,7 @@
     }
 
     .search-input::placeholder {
-      color: #6b7280;
+      color: #9ca3af;
     }
 
     .search-tag {
@@ -181,14 +200,14 @@
       color: var(--text-muted);
       border-radius: 999px;
       padding: 3px 8px;
-      background: rgba(15, 23, 42, 0.9);
-      border: 1px solid rgba(55, 65, 81, 0.8);
+      background: #eef2ff;
+      border: 1px solid #e0e7ff;
       white-space: nowrap;
     }
 
     /* 리스트 영역 */
     .list {
-      margin-top: 22px;
+      margin-top: 20px;
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -198,27 +217,28 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      background: rgba(15, 23, 42, 0.95);
+      background: var(--card-bg);
       border-radius: var(--radius-xl);
-      padding: 8px 12px 9px;
-      border: 1px solid rgba(31, 41, 55, 0.95);
+      padding: 9px 12px 9px;
+      border: 1px solid var(--card-border);
       transition: transform 0.14s ease, box-shadow 0.14s ease, border-color 0.14s ease, background 0.14s ease;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.03);
     }
 
     .item:hover {
       transform: translateY(-1px);
-      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
-      border-color: rgba(55, 65, 81, 1);
-      background: radial-gradient(circle at top left, rgba(16, 185, 129, 0.08), rgba(15, 23, 42, 0.98));
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+      border-color: rgba(20, 184, 166, 0.35);
+      background: linear-gradient(135deg, #ffffff, #f0fdfa);
     }
 
     .item-thumb {
-      width: 52px;
-      height: 52px;
-      border-radius: 14px;
+      width: 56px;
+      height: 56px;
+      border-radius: 16px;
       overflow: hidden;
-      background: #020617;
-      border: 1px solid rgba(30, 64, 175, 0.7);
+      background: #f3f4f6;
+      border: 1px solid #e5e7eb;
       flex-shrink: 0;
       display: flex;
       align-items: center;
@@ -243,33 +263,32 @@
       gap: 6px;
       font-size: 11px;
       font-weight: 500;
-      color: var(--accent);
+      color: var(--accent-dim);
       margin-bottom: 2px;
     }
 
     .item-number-pill {
       padding: 2px 8px;
       border-radius: 999px;
-      border: 1px solid rgba(45, 212, 191, 0.4);
-      background: rgba(16, 185, 129, 0.06);
+      border: 1px solid rgba(20, 184, 166, 0.35);
+      background: var(--accent-soft);
     }
 
     .item-title {
       font-size: 14px;
-      font-weight: 500;
+      font-weight: 600;
       letter-spacing: -0.02em;
       margin-bottom: 2px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      /* 모바일에서 잘 보이도록 줄바꿈 허용 */
+      white-space: normal;
+      line-height: 1.4;
     }
 
     .item-desc {
       font-size: 11px;
       color: var(--text-sub);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      white-space: normal;
+      line-height: 1.5;
     }
 
     .item-cta {
@@ -281,13 +300,13 @@
       outline: none;
       cursor: pointer;
       border-radius: var(--radius-pill);
-      padding: 8px 14px;
+      padding: 8px 13px;
       font-size: 12px;
       font-weight: 500;
       letter-spacing: -0.02em;
       background: linear-gradient(135deg, var(--accent), var(--accent-dim));
-      color: #022c22;
-      box-shadow: 0 10px 25px rgba(16, 185, 129, 0.5);
+      color: #ecfdf5;
+      box-shadow: 0 10px 25px rgba(16, 185, 129, 0.45);
       display: inline-flex;
       align-items: center;
       gap: 6px;
@@ -295,18 +314,18 @@
     }
 
     .btn span {
-      font-size: 13px;
+      font-size: 12px;
     }
 
     .btn-arrow {
       width: 16px;
       height: 16px;
       border-radius: 999px;
-      border: 1px solid rgba(6, 95, 70, 1);
+      border: 1px solid rgba(8, 145,  ninety, 1);
       display: flex;
       align-items: center;
       justify-content: center;
-      background: rgba(236, 253, 245, 0.8);
+      background: #ecfdf5;
       color: #047857;
       font-size: 11px;
     }
@@ -315,8 +334,8 @@
       margin-top: 22px;
       padding: 12px 13px;
       border-radius: var(--radius-lg);
-      border: 1px dashed rgba(55, 65, 81, 0.9);
-      background: rgba(15, 23, 42, 0.9);
+      border: 1px dashed #d1d5db;
+      background: #f9fafb;
       font-size: 12px;
       color: var(--text-muted);
     }
@@ -326,7 +345,7 @@
     }
 
     .footer {
-      margin-top: 26px;
+      margin-top: 24px;
       font-size: 11px;
       color: var(--text-muted);
       text-align: center;
@@ -334,12 +353,12 @@
 
     .footer span {
       color: var(--accent);
-      font-weight: 500;
+      font-weight: 600;
     }
 
     @media (max-width: 480px) {
       body {
-        padding: 22px 12px 32px;
+        padding: 20px 10px 30px;
       }
 
       .title {
@@ -347,19 +366,28 @@
       }
 
       .item {
-        align-items: center;
+        align-items: flex-start;
       }
 
-      .btn span {
-        font-size: 12px;
+      .item-thumb {
+        width: 54px;
+        height: 54px;
       }
 
       .btn {
-        padding: 7px 12px;
+        padding: 7px 11px;
+        font-size: 11px;
       }
 
+      .btn span {
+        font-size: 11px;
+      }
+
+      /* 모바일에서는 설명을 한 줄 정도만 보이게 */
       .item-desc {
-        display: none; /* 너무 답답하면 이 줄 삭제해도 됩니다 */
+        display: block;
+        max-height: 32px;
+        overflow: hidden;
       }
     }
   </style>
@@ -371,7 +399,7 @@
       <span class="badge-dot"></span>
       INSTAGRAM PROFILE LINK
     </div>
-    <h1 class="title">하진팜 인스타 전용 링크</h1>
+    <h1 class="title">HAJINFAM 인스타 전용 링크</h1>
     <p class="subtitle">
       인스타그램에서 보신 상품의 번호를 입력하거나,<br />
       상품명을 일부만 입력해도 바로 찾을 수 있습니다.<br />
@@ -576,7 +604,7 @@
     const img = document.createElement("img");
     const imgUrl = p.imageUrl || p.mainImage || "";
     img.src = imgUrl || "https://via.placeholder.com/200x200.png?text=IMG";
-    img.alt = p.title || (p.no + "번 상품");
+    img.alt = p.title || "";
     thumb.appendChild(img);
 
     // 텍스트 영역
@@ -592,7 +620,7 @@
 
     const titleEl = document.createElement("div");
     titleEl.className = "item-title";
-    titleEl.textContent = p.title || (p.no + "번");
+    titleEl.textContent = p.title || `${p.no}번.`;
 
     const desc = document.createElement("div");
     desc.className = "item-desc";
@@ -611,9 +639,8 @@
     btn.type = "button";
     btn.innerHTML = '<span>최대 할인가 확인하기</span><div class="btn-arrow">→</div>';
     btn.addEventListener("click", () => {
-      if (p.link && p.link !== "nan") {
-        window.location.href = p.link;
-      }
+      const url = p.link || p.url;
+      if (url) window.location.href = url;
     });
 
     cta.appendChild(btn);
@@ -650,11 +677,8 @@
     const numMatch = q.replace(/[^0-9]/g, "");
     return products.filter(p => {
       const numberString = String(p.no);
-
-      // 번호 완전 일치
       const matchNumber = numMatch && numberString === numMatch;
 
-      // 제목/설명 텍스트 검색 (shortTitle 대신 title 사용)
       const text = `${p.no}번 ${p.title} ${p.description}`;
       const matchText = normalize(text).includes(q);
 
