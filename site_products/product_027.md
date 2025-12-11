@@ -10,18 +10,17 @@ image_url: "https://shop-phinf.pstatic.net/20251125_58/1764060075073JQf9t_JPEG/1
 
 ![포근한 겨울 방한 슬리퍼](https://shop-phinf.pstatic.net/20251125_58/1764060075073JQf9t_JPEG/18587057830696921_1446136759.jpg)
 
-추운 겨울에도 따뜻한 플리스와 패딩으로 발끝까지 완벽한 보온을 경험하세요.
+차가운 겨울, 따뜻한 발걸음을 원한다면 나이키 버로우 털 슬리퍼로 포근함을 경험하세요.
 
 | 구분 | 상세 설명 |
 | --- | --- |
-| 소재 | 플리스, 패딩 |
+| 소재 | 플리스·패딩 |
 | 방한 기능 | 우수한 보온성 |
-| 사용 대상 | 남녀공용 |
-| 디자인 | 슬리퍼형, 캐주얼 |
-| 용도 | 캠핑, 실내외 방한화 |
+| 디자인 | 슬립온 타입, 캐주얼 |
+| 사용 대상 | 남녀 공용 |
+| 활용도 | 겨울 캠핑 및 실내외 착용 |
 | 무게 | 가벼움 |
-| 계절 | 겨울용 |
-| 내구성 | 튼튼한 마감 처리 |
+| 내구성 | 튼튼한 패딩 마감 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>

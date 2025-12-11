@@ -30,11 +30,12 @@ REQUIRED_COLUMNS = [
 
 
 # =========================
-# slug 유틸 (파일명용)
+# slug 유틸 (현재는 파일명이 번호로 고정이라
+#           당장은 쓰지 않지만, 나중에 URL 등에
+#           쓰고 싶을 수 있으니 그대로 둡니다.)
 # =========================
 def slugify(text: str) -> str:
     text = str(text).strip()
-    # 한글/영문/숫자만 남기고 나머지는 - 로 치환
     text = re.sub(r"[^0-9a-zA-Z가-힣]+", "-", text)
     text = re.sub(r"-{2,}", "-", text).strip("-")
     if not text:
@@ -107,7 +108,6 @@ def generate_intro_and_specs(name: str, desc: str) -> tuple[str, list[dict]]:
     intro = str(data.get("intro", "")).strip()
     rows = data.get("rows", []) or []
 
-    # rows 가 형식이 이상하면 정리
     cleaned_rows = []
     for r in rows:
         label = str(r.get("label", "")).strip()
@@ -175,11 +175,10 @@ def build_markdown(
             lines.append(f"| {label} | {detail} |")
         lines.append("")
     else:
-        # rows 가 없을 때 최소한 기본 설명이라도
         lines.append("상세 스펙은 판매 페이지에서 확인해 주세요.")
         lines.append("")
 
-    # 🔥 CTA 박스 (빨간 테두리 박스)
+    # 🔥 CTA 박스
     if product_url:
         lines.append(
             '<div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;'
@@ -204,7 +203,7 @@ def build_markdown(
 # =========================
 def build_index_markdown(items: list[dict]) -> str:
     """
-    items: [{"no": 1, "title": "...", "filename": "product_001_....md"}, ...]
+    items: [{"no": 1, "title": "...", "filename": "product_001.md"}, ...]
     """
     lines: list[str] = []
 
@@ -261,8 +260,7 @@ def main():
         base_desc = str(row.get("productDescription", "")).strip()
 
         if not name or not product_url:
-            # 필수 정보 없으면 건너뜀
-            continue
+            continue  # 필수 정보 없으면 건너뜀
 
         # GPT 로 intro + 스펙 표 데이터 생성
         intro, rows = generate_intro_and_specs(name, base_desc)
@@ -278,8 +276,8 @@ def main():
             rows=rows,
         )
 
-        slug = slugify(short_title or name)
-        filename = f"product_{no:03d}_{slug}.md"
+        # ✅ 파일 이름을 "번호만"으로 고정
+        filename = f"product_{no:03d}.md"
         filepath = os.path.join(OUTPUT_DIR, filename)
 
         with open(filepath, "w", encoding="utf-8") as f:
@@ -293,7 +291,7 @@ def main():
             }
         )
 
-        print(f"[MD] 상품 {no}번 → {filepath} 생성 완료")
+        print(f"[MD] 상품 {no}번 → {filepath} 생성/업데이트 완료")
 
     # index.md 생성
     index_md = build_index_markdown(index_items)

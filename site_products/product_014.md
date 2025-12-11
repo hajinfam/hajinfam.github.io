@@ -10,17 +10,18 @@ image_url: "https://shop-phinf.pstatic.net/20240927_39/1727400379472DQTUT_JPEG/1
 
 ![고성능 LTE 태블릿PC](https://shop-phinf.pstatic.net/20240927_39/1727400379472DQTUT_JPEG/15699937494177277_361597048.jpg)
 
-빠르고 넉넉한 저장공간으로 일상과 업무를 완벽하게, 가성비 좋은 태블릿을 찾는 분께 추천합니다.
+빠르고 넉넉한 저장공간의 아이뮤즈 뮤패드 K11 LTE로 일상과 업무를 완벽하게 해결하세요.
 
 | 구분 | 상세 설명 |
 | --- | --- |
 | 운영체제 | 안드로이드 |
-| RAM | 8GB |
-| 저장 공간 | 128GB |
+| 램(RAM) | 8GB |
+| 저장공간 | 128GB |
 | 네트워크 | LTE 지원 |
-| 디스플레이 | 뮤패드 K11 |
-| 사용 목적 | 일상 및 업무용 |
-| 가성비 | 우수 |
+| 디스플레이 | 10.1인치 |
+| 배터리 | 대용량 배터리 탑재 |
+| 무게 | 약 450g |
+| 용도 | 일상 및 업무용 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>

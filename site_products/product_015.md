@@ -10,17 +10,16 @@ image_url: "https://shop-phinf.pstatic.net/20240819_68/1724027723542VVf1H_JPEG/5
 
 ![차량용 포레스트 방향제 80ml](https://shop-phinf.pstatic.net/20240819_68/1724027723542VVf1H_JPEG/51365116327154854_1852510496.jpg)
 
-차량 내 답답한 냄새, 산뜻한 포레스트가든 향기로 깨끗하게!
+차량 내 답답한 냄새를 산뜻한 숲 향기로 바꾸고 싶은 분께 딱 맞는 1+1 차량용 방향제입니다.
 
 | 구분 | 상세 설명 |
 | --- | --- |
 | 용량 | 80ml |
 | 향기 | 포레스트가든(숲 향기) |
 | 구성 | 1+1 세트 |
-| 용도 | 차량용 방향제 |
-| 타입 | 디퓨저 |
-| 특징 | 고급 명품 향기 |
-| 장점 | 산뜻하고 오래 지속 |
+| 사용처 | 자동차 내 |
+| 디자인 | 고급 자동차 명품 스타일 |
+| 효과 | 냄새 제거 및 산뜻한 공기 유지 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>

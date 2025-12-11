@@ -10,17 +10,17 @@ image_url: "https://shop-phinf.pstatic.net/20241222_133/17348056359229qYSC_JPEG/
 
 ![포근한 양털 겨울 귀도리](https://shop-phinf.pstatic.net/20241222_133/17348056359229qYSC_JPEG/70852511689562404_401854286.jpg)
 
-차가운 겨울 바람에 시린 귀를 부드러운 양털 귀도리가 따뜻하게 감싸줍니다.
+추운 겨울, 차가운 바람으로 귀가 시릴 때 부드러운 양털 귀도리로 따뜻함을 느껴보세요.
 
 | 구분 | 상세 설명 |
 | --- | --- |
 | 소재 | 부드러운 양털 |
-| 색상 | 아이보리 |
 | 방한 기능 | 우수한 보온성 |
-| 착용 형태 | 귀도리형 귀덮개 |
-| 용도 | 겨울용 이어워머, 귀마개 |
-| 계절 | 겨울 |
-| 무게 | 가벼움 |
+| 디자인 | 귀도리 형태의 귀덮개 |
+| 색상 | 아이보리 |
+| 사용 대상 | 성인 및 어린이 모두 가능 |
+| 계절 | 겨울철 |
+| 추가 기능 | 이어워머 및 목도리 겸용 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>
