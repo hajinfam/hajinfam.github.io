@@ -559,13 +559,13 @@
     "imageUrl": "https://shop-phinf.pstatic.net/20251021_61/1761008802600sm4Cz_JPEG/95141641731442454_589146379.jpg"
   }
 ];
-// === AUTO_GENERATED_PRODUCTS_END ===// === AUTO_GENERATED_PRODUCTS_END ===// === AUTO_GENERATED_PRODUCTS_END ===// === AUTO_GENERATED_PRODUCTS_END ===// === AUTO_GENERATED_PRODUCTS_END ===// === AUTO_GENERATED_PRODUCTS_END ===// === AUTO_GENERATED_PRODUCTS_END ===// === AUTO_GENERATED_PRODUCTS_END ===// === AUTO_GENERATED_PRODUCTS_END ===// === AUTO_GENERATED_PRODUCTS_END ===
+// === AUTO_GENERATED_PRODUCTS_END ===
 
   const listEl = document.getElementById("list");
   const searchInput = document.getElementById("searchInput");
   const emptyState = document.getElementById("emptyState");
 
-  function createItemElement(product) {
+  function createItemElement(p) {
     const item = document.createElement("article");
     item.className = "item";
 
@@ -574,9 +574,9 @@
     thumb.className = "item-thumb";
 
     const img = document.createElement("img");
-    const imgUrl = product.mainImage || "";
+    const imgUrl = p.imageUrl || p.mainImage || "";
     img.src = imgUrl || "https://via.placeholder.com/200x200.png?text=IMG";
-    img.alt = product.shortTitle || "";
+    img.alt = p.title || (p.no + "번 상품");
     thumb.appendChild(img);
 
     // 텍스트 영역
@@ -587,19 +587,19 @@
     num.className = "item-number";
     const pill = document.createElement("span");
     pill.className = "item-number-pill";
-    pill.textContent = product.no + "번";
+    pill.textContent = p.no + "번";
     num.appendChild(pill);
 
-    const title = document.createElement("div");
-    title.className = "item-title";
-    title.textContent = product.no + "번. " + (product.shortTitle || "");
+    const titleEl = document.createElement("div");
+    titleEl.className = "item-title";
+    titleEl.textContent = p.title || (p.no + "번");
 
     const desc = document.createElement("div");
     desc.className = "item-desc";
-    desc.textContent = product.description || "";
+    desc.textContent = p.description || "";
 
     main.appendChild(num);
-    main.appendChild(title);
+    main.appendChild(titleEl);
     main.appendChild(desc);
 
     // 버튼
@@ -611,7 +611,9 @@
     btn.type = "button";
     btn.innerHTML = '<span>최대 할인가 확인하기</span><div class="btn-arrow">→</div>';
     btn.addEventListener("click", () => {
-      window.location.href = product.url;
+      if (p.link && p.link !== "nan") {
+        window.location.href = p.link;
+      }
     });
 
     cta.appendChild(btn);
@@ -649,9 +651,11 @@
     return products.filter(p => {
       const numberString = String(p.no);
 
+      // 번호 완전 일치
       const matchNumber = numMatch && numberString === numMatch;
 
-      const text = `${p.no}번 ${p.shortTitle} ${p.description}`;
+      // 제목/설명 텍스트 검색 (shortTitle 대신 title 사용)
+      const text = `${p.no}번 ${p.title} ${p.description}`;
       const matchText = normalize(text).includes(q);
 
       return matchNumber || matchText;
