@@ -10,18 +10,17 @@ image_url: "https://shop-phinf.pstatic.net/20240927_39/1727400379472DQTUT_JPEG/1
 
 ![고성능 LTE 태블릿PC](https://shop-phinf.pstatic.net/20240927_39/1727400379472DQTUT_JPEG/15699937494177277_361597048.jpg)
 
-빠르고 넉넉한 저장공간으로 일상과 업무 모두 완벽하게 해결하세요.
+빠르고 넉넉한 저장공간으로 일상과 업무를 완벽하게 해결하는 가성비 태블릿PC입니다.
 
 | 구분 | 상세 설명 |
 | --- | --- |
 | 운영체제 | 안드로이드 |
 | RAM | 8GB |
 | 저장공간 | 128GB |
-| 네트워크 | LTE 지원 |
-| 디스플레이 크기 | 11인치 |
-| 무게 | 알맞은 휴대성 |
-| 용도 | 일상 및 업무용 |
-| 가성비 | 높음 |
+| 연결방식 | LTE |
+| 화면크기 | 11인치 |
+| 주요용도 | 일상, 업무 |
+| 가격경쟁력 | 가성비 우수 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>

@@ -10,17 +10,17 @@ image_url: "https://shop-phinf.pstatic.net/20251021_61/1761008802600sm4Cz_JPEG/9
 
 ![탁상용 초음파 가습기](https://shop-phinf.pstatic.net/20251021_61/1761008802600sm4Cz_JPEG/95141641731442454_589146379.jpg)
 
-사무실 건조함에 고민이라면, 조용하고 간편 세척 가능한 에디르 미니 가습기로 쾌적함을 누리세요.
+사무실 공기 건조함에 고민이라면, 에디르 스텐 초음파 가습기로 조용하고 간편한 습도 조절을 경험하세요.
 
 | 구분 | 상세 설명 |
 | --- | --- |
 | 소재 | 스테인리스 스틸 |
 | 용도 | 탁상용, 사무실용 |
-| 세척 편의성 | 간편 세척 가능 |
-| 크기 | 미니 사이즈 |
-| 소음 수준 | 저소음 |
 | 가습 방식 | 초음파 가습 |
-| 무게 | 가벼움 |
+| 소음 수준 | 저소음 |
+| 세척 편리성 | 간편 세척 가능 |
+| 크기 | 미니 사이즈 |
+| 전원 | USB 연결 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>

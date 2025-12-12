@@ -10,18 +10,17 @@ image_url: "https://shop-phinf.pstatic.net/20221101_78/1667285988930nBDR6_JPEG/6
 
 ![LED 야광 고양이 머리띠](https://shop-phinf.pstatic.net/20221101_78/1667285988930nBDR6_JPEG/68421822725526886_379458607.jpg)
 
-파티 분위기를 밝히고 싶다면 LED 야광 고양이 머리띠로 즐거운 이벤트를 완성해보세요.
+파티 때 분위기를 살려줄 LED 고양이 머리띠로 특별한 이벤트를 완성하세요.
 
 | 구분 | 상세 설명 |
 | --- | --- |
-| 소재 | 플라스틱 및 LED 조명 |
-| 방수 여부 | 비방수 |
+| 소재 | 플라스틱, LED |
+| 발광 유형 | LED 조명 |
+| 디자인 | 고양이 귀 형태 |
+| 사용 대상 | 어린이 및 성인 |
 | 적용 이벤트 | 생일, 할로윈, 크리스마스 등 |
-| 디자인 | 고양이 캐릭터 귀 모양 |
-| 전원 방식 | 건전지 |
-| 무게 | 가벼움 |
-| 사용 대상 | 모든 연령층 |
-| 특징 | 야광 LED 조명으로 시각 효과 강화 |
+| 전원 방식 | 배터리 운영 |
+| 크기 | 프리사이즈, 탄력 조절 가능 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>

@@ -10,17 +10,17 @@ image_url: "https://shop-phinf.pstatic.net/20230925_287/1695632594321Cmm6C_JPEG/
 
 ![두꺼운 우풍차단 비닐](https://shop-phinf.pstatic.net/20230925_287/1695632594321Cmm6C_JPEG/15567567921752873_555173247.jpg)
 
-찬 바람과 틈새 바람 걱정 끝! 두꺼운 비닐 커튼으로 집안 온기를 지켜보세요.
+추운 날씨 틈새 바람 걱정 끝! 두꺼운 비닐 커튼으로 집안 따뜻함을 지켜보세요.
 
 | 구분 | 상세 설명 |
 | --- | --- |
-| 소재 | 두꺼운 비닐 |
+| 소재 | 두꺼운 방풍 비닐 |
 | 사이즈 | 40x10cm |
-| 적용 장소 | 창문, 현관, 베란다 |
-| 방풍 기능 | 우풍 차단 가능 |
+| 용도 | 창문, 현관, 베란다 우풍 차단 |
+| 기능 | 우풍 차단 및 보온 효과 |
 | 설치 방식 | 자석 부착형 |
-| 계절 | 겨울철 |
-| 맞춤형 | 대형 사이즈 맞춤 제작 가능 |
+| 내구성 | 두꺼워서 찢어짐 방지 |
+| 계절 | 겨울철 사용 권장 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>
