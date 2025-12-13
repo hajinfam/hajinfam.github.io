@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+# 네이버가 싫어하는 중복/저품질 패턴 방어
+Disallow: /page/
+Disallow: /tag/
+Disallow: /category/
+Disallow: /*?
+
+Sitemap: https://hajinfam.github.io/sitemap.xml
