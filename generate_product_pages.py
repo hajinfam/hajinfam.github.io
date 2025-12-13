@@ -64,17 +64,17 @@ def is_md_good_enough(existing_md: str, expected_no: int, expected_url: str) -> 
     if not (no_ok and url_ok):
         return False
 
-    has_table = ("| 구분 | 상세 설명 |" in existing_md) or ("| 구분 |" in existing_md)
+    has_table = ("| 구분 | 상세 설명 |" in existing_md) or ("| --- | --- |" in existing_md)
     has_cta = ("놓치면 후회할 가격" in existing_md) or ("최저가 확인" in existing_md)
 
     return has_table or has_cta
 
 def html_escape(s: str) -> str:
     return (
-        s.replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-        .replace('"', "&quot;")
+        str(s).replace("&", "&amp;")
+              .replace("<", "&lt;")
+              .replace(">", "&gt;")
+              .replace('"', "&quot;")
     )
 
 # ---------------------------------------
@@ -128,8 +128,11 @@ def generate_intro_and_specs(name: str, desc: str) -> tuple[str, list[dict]]:
 
     cleaned = []
     for r in rows:
-        label = str(r.get("label", "")).strip()
-        detail = str(r.get("detail", "")).strip()
+        try:
+            label = str(r.get("label", "")).strip()
+            detail = str(r.get("detail", "")).strip()
+        except Exception:
+            continue
         if label and detail:
             cleaned.append({"label": label, "detail": detail})
 
@@ -146,6 +149,7 @@ def build_markdown(
     image_url: str,
     intro: str,
     rows: list[dict],
+    permalink: str,
 ) -> str:
     display_title = short_title or name
     heading = f"{no}번. {display_title}"
@@ -157,8 +161,11 @@ def build_markdown(
     lines.append(f'product_name: "{html_escape(name)}"')
     lines.append(f'product_url: "{product_url}"')
     lines.append(f'image_url: "{image_url}"')
+    # ✅ GitHub Pages(Jekyll)에서 md 클릭 404 방지용 permalink
+    lines.append(f'permalink: "{permalink}"')
     lines.append("---")
     lines.append("")
+
     lines.append(f"# {heading}")
     lines.append("")
 
@@ -174,8 +181,8 @@ def build_markdown(
         lines.append("| 구분 | 상세 설명 |")
         lines.append("| --- | --- |")
         for r in rows:
-            label = r["label"].replace("|", "\\|")
-            detail = r["detail"].replace("|", "\\|")
+            label = str(r["label"]).replace("|", "\\|")
+            detail = str(r["detail"]).replace("|", "\\|")
             lines.append(f"| {label} | {detail} |")
         lines.append("")
     else:
@@ -233,8 +240,8 @@ def build_index_markdown(items: list[dict]) -> str:
         no = it["no"]
         title = html_escape(it["title"])
         summary = html_escape(it.get("summary", ""))
-        filename = it["filename"]
-        href = f"./{filename}"
+        # ✅ permalink 기반 링크로 변경 (가장 안전)
+        href = it["permalink"]
         lines.append(f'<a class="product-card" href="{href}">')
         lines.append(f'  <div class="product-badge">{no}번</div>')
         lines.append(f'  <div class="product-title">{title}</div>')
@@ -279,28 +286,30 @@ def main():
         if not name or not product_url:
             continue
 
-        # ✅ 파일명은 번호 기준 고정 (중복 생성 원천 차단)
+        # ✅ 파일명 고정
         filename = f"product_{no:03d}.md"
         filepath = os.path.join(OUTPUT_DIR, filename)
 
-        # ✅ 이미 "충분히 생성된 파일"이면 GPT 호출/파일생성 스킵
+        # ✅ permalink 고정 (폴더형 URL)
+        permalink = f"/site_products/product_{no:03d}/"
+
+        # ✅ 충분히 생성된 파일이면 스킵
         if os.path.exists(filepath):
             with open(filepath, "r", encoding="utf-8") as f:
                 existing = f.read()
 
             if is_md_good_enough(existing, expected_no=no, expected_url=product_url):
-                # 인덱스 목록은 계속 최신화되도록 여기서만 추가
                 summary = (base_desc or "").strip()
                 if len(summary) > 46:
                     summary = summary[:46].rstrip() + "…"
 
                 index_items.append(
-                    {"no": no, "title": short_title or name, "filename": filename, "summary": summary}
+                    {"no": no, "title": short_title or name, "filename": filename, "summary": summary, "permalink": permalink}
                 )
                 print(f"[MD] 상품 {no}번 → 이미 존재(스킵): {filepath}")
                 continue
 
-        # 여기까지 왔으면 새로 만들거나(또는 부족해서) 업데이트가 필요
+        # 부족하거나 없으면 생성/업데이트
         intro, rows = generate_intro_and_specs(name, base_desc)
 
         md_content = build_markdown(
@@ -311,6 +320,7 @@ def main():
             image_url=image_url,
             intro=intro,
             rows=rows,
+            permalink=permalink,
         )
 
         with open(filepath, "w", encoding="utf-8") as f:
@@ -321,12 +331,12 @@ def main():
             summary_src = summary_src[:46].rstrip() + "…"
 
         index_items.append(
-            {"no": no, "title": short_title or name, "filename": filename, "summary": summary_src}
+            {"no": no, "title": short_title or name, "filename": filename, "summary": summary_src, "permalink": permalink}
         )
 
         print(f"[MD] 상품 {no}번 → 생성/업데이트 완료: {filepath}")
 
-    # index.md는 “목차 최신화” 목적이라 매번 재생성 OK
+    # index.md는 매번 최신화
     index_md = build_index_markdown(index_items)
     index_path = os.path.join(OUTPUT_DIR, "index.md")
     with open(index_path, "w", encoding="utf-8") as f:
