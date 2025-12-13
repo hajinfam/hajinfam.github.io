@@ -1,5 +1,9 @@
 ---
 title: "하진팜 상품 모아보기"
+description: "인스타그램에서 소개된 하진팜 상품들을 한눈에 모아볼 수 있는 페이지입니다."
+layout: default
+sitemap: true
+noindex: false
 ---
 
 # 하진팜 상품 모아보기
