@@ -4,23 +4,24 @@ product_no: 11
 product_name: "삼성 정품 갤럭시 스마트 태그2 위치추적기 원격 UWB 분실방지 어린이 미아방지 트래커"
 product_url: "https://naver.me/FgTKvSOj"
 image_url: "https://shop-phinf.pstatic.net/20241202_29/17331027876933cNNl_JPEG/19868530163881398_1602592050.jpg"
+permalink: "/site_products/product_011/"
 ---
 
 # 11번. 정확한 위치 추적기
 
 ![정확한 위치 추적기](https://shop-phinf.pstatic.net/20241202_29/17331027876933cNNl_JPEG/19868530163881398_1602592050.jpg)
 
-아이와 소중한 물건을 분실 걱정 없이 안전하게 관리하는 삼성 정품 위치추적기입니다.
+아이와 귀중품을 안전하게 지키는 삼성 갤럭시 스마트 태그2로 안심하세요.
 
 | 구분 | 상세 설명 |
 | --- | --- |
-| 제품명 | 삼성 갤럭시 스마트 태그2 |
-| 위치추적 기술 | UWB (초광대역) 및 블루투스 |
-| 기능 | 원격 위치 확인, 분실 방지 알림 |
-| 주사용 대상 | 어린이 및 귀중품 |
-| 호환 기기 | 갤럭시 스마트폰과 호환 |
-| 충전 방식 | 교체형 배터리 |
-| 내구성 | 견고한 디자인으로 일상 사용에 적합 |
+| 브랜드 | 삼성 |
+| 제품명 | 갤럭시 스마트 태그2 |
+| 기능 | 위치추적, 원격 관리, 분실방지 |
+| 기술 | UWB (초광대역) 기술 지원 |
+| 용도 | 어린이 미아 방지, 귀중품 보호 |
+| 호환기기 | 갤럭시 스마트폰 전용 |
+| 색상 | 블랙, 화이트 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>

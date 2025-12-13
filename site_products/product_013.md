@@ -4,24 +4,24 @@ product_no: 13
 product_name: "샤오미 레드미 워치 5 액티브 만보기 러닝 런닝 운동 스포츠 시계"
 product_url: "https://naver.me/GOhZQzzp"
 image_url: "https://shop-phinf.pstatic.net/20250908_43/1757298331836lMKkK_JPEG/91306051896156888_898425836.jpg"
+permalink: "/site_products/product_013/"
 ---
 
 # 13번. 운동 최적화 스마트 워치
 
 ![운동 최적화 스마트 워치](https://shop-phinf.pstatic.net/20250908_43/1757298331836lMKkK_JPEG/91306051896156888_898425836.jpg)
 
-운동할 때 실시간으로 활동을 기록해 목표 달성을 도와주는 스마트 스포츠 시계입니다.
+운동과 러닝에 최적화된 샤오미 레드미 워치 5 액티브로 건강한 생활을 시작하세요.
 
 | 구분 | 상세 설명 |
 | --- | --- |
-| 소재 | 알루미늄 합금 및 강화 유리 |
-| 방수 여부 | 5ATM 방수 지원 |
-| 건강 기능 | 심박수 모니터링, 수면 분석, 만보기 |
-| 운동 모드 | 러닝, 사이클링, 수영 등 다중 스포츠 모드 |
-| 디스플레이 | 1.47인치 AMOLED 터치스크린 |
-| 배터리 지속 시간 | 최대 10일 사용 가능 |
-| 무게 | 약 45g |
-| 호환성 | 안드로이드 및 iOS 모두 지원 |
+| 제품명 | 샤오미 레드미 워치 5 액티브 |
+| 기능 | 러닝, 만보기, 운동 기록 |
+| 운동 모드 | 러닝, 사이클, 워킹 등 다양한 스포츠 모드 |
+| 활동 추적 | 실시간 심박수 및 칼로리 소모량 측정 |
+| 목표 설정 | 운동 목표 달성 도와주는 알림 기능 |
+| 디스플레이 | 고화질 터치 스크린 |
+| 배터리 | 장시간 사용 가능한 배터리 수명 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>

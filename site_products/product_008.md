@@ -4,23 +4,22 @@ product_no: 8
 product_name: "고급 양모 양털 화이트 크리스마스 인테리어 트리 덮개 스커트 담요 매트 가리개 60cm"
 product_url: "https://naver.me/5noaB4SW"
 image_url: "https://shop-phinf.pstatic.net/20240927_22/17274228566063Nu4n_JPEG/61555714704941476_342412971.jpg"
+permalink: "/site_products/product_008/"
 ---
 
 # 8번. 포근한 양모 트리 스커트
 
 ![포근한 양모 트리 스커트](https://shop-phinf.pstatic.net/20240927_22/17274228566063Nu4n_JPEG/61555714704941476_342412971.jpg)
 
-추운 겨울, 크리스마스 트리에 포근한 양모 스커트로 따뜻함을 더해보세요.
+포근한 양모로 따뜻함을 더하는 크리스마스 트리 커버 스커트입니다.
 
 | 구분 | 상세 설명 |
 | --- | --- |
-| 소재 | 고급 양모 양털 |
-| 사이즈 | 60cm |
-| 용도 | 크리스마스 트리 덮개 스커트 |
+| 소재 | 고급 양모 |
 | 색상 | 화이트 |
-| 특징 | 부드럽고 포근한 감촉 |
-| 분위기 | 따뜻하고 아늑한 겨울 인테리어 |
-| 기능 | 트리 주변 가리개 및 장식 매트 |
+| 사이즈 | 60cm |
+| 용도 | 크리스마스 트리 덮개 및 인테리어 매트 |
+| 특징 | 부드럽고 포근한 촉감, 겨울철 따뜻한 분위기 연출 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>

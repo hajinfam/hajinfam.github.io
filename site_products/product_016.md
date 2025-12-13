@@ -4,23 +4,23 @@ product_no: 16
 product_name: "방풍 비닐 대형 맞춤 두꺼운 창문 우풍차단 현관 자석 베란다 커튼 40x10cm"
 product_url: "https://naver.me/5zXwI6Tw"
 image_url: "https://shop-phinf.pstatic.net/20230925_287/1695632594321Cmm6C_JPEG/15567567921752873_555173247.jpg"
+permalink: "/site_products/product_016/"
 ---
 
 # 16번. 두꺼운 우풍차단 비닐
 
 ![두꺼운 우풍차단 비닐](https://shop-phinf.pstatic.net/20230925_287/1695632594321Cmm6C_JPEG/15567567921752873_555173247.jpg)
 
-찬 바람과 틈새 바람 걱정 끝! 두꺼운 비닐 커튼으로 집안 온기를 지켜보세요.
+두꺼운 비닐 커튼으로 찬 바람 차단, 따뜻한 공간을 유지하세요.
 
 | 구분 | 상세 설명 |
 | --- | --- |
-| 소재 | 두꺼운 비닐 |
+| 제품명 | 방풍 비닐 대형 맞춤 두꺼운 창문 우풍차단 커튼 |
 | 사이즈 | 40x10cm |
-| 적용 장소 | 창문, 현관, 베란다 |
-| 방풍 기능 | 우풍 차단 가능 |
-| 설치 방식 | 자석 부착형 |
-| 계절 | 겨울철 |
-| 맞춤형 | 대형 사이즈 맞춤 제작 가능 |
+| 소재 | 두꺼운 비닐 |
+| 용도 | 창문, 현관, 베란다 우풍 차단용 |
+| 특징 | 자석 부착형으로 간편 설치 |
+| 장점 | 추운 날씨 틈새 바람 차단, 보온 효과 탁월 |
 
 <div style="margin-top:18px;padding:18px;border:2px solid #ff4d4f;border-radius:14px;background:#fff7f6;text-align:center;font-weight:600;color:#ff4d4f;font-size:15px;line-height:1.6;">
 🔥 놓치면 후회할 가격!<br/>
