@@ -655,4 +655,180 @@ noindex: false
     <div class="product-cta"><span>자세히 보기 →</span></div>
   </div>
 </a>
+<a class="product-card" href="/site_products/product_050/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250926_101/17588598135561I8SR_JPEG/92992735688983672_1838852221.jpg" alt="미니 전기온풍기 발난로" loading="lazy" />
+    <div class="product-badge">50번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">미니 전기온풍기 발난로</h3>
+    <p class="product-summary">작고 강력한 휴고스 미니 전기온풍기로 사무실과 캠핑 등 다양한 공간을 빠르게 따뜻하…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_051/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251126_137/1764118554399jnJnU_JPEG/25455801497886398_1776636856.jpg" alt="절전형 욕실용 순간발열 히터" loading="lazy" />
+    <div class="product-badge">51번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">절전형 욕실용 순간발열 히터</h3>
+    <p class="product-summary">추운 욕실을 빠르게 따뜻하게 만드는 절전형 PTC 순간발열 욕실용 온풍기로 실용적이…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_052/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251205_157/1764921072519h2VVN_PNG/99053885603308557_650950176.png" alt="거실용 전기 가습 히터" loading="lazy" />
+    <div class="product-badge">52번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">거실용 전기 가습 히터</h3>
+    <p class="product-summary">쿠오레 불멍 가습 히터는 거실과 사무실에 따뜻한 온기와 촉촉한 습기를 제공합니다.…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_053/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251010_8/17600522426622O3Ko_JPEG/45896581643329479_1789907410.jpg" alt="욕실 벽걸이 온풍기" loading="lazy" />
+    <div class="product-badge">53번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">욕실 벽걸이 온풍기</h3>
+    <p class="product-summary">추운 욕실에 적합한 벽걸이형 온풍기로 빠르게 따뜻한 공간을 제공합니다. 쾌적한 욕실…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_054/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251103_37/1762124882953bmRwM_JPEG/78350197805646922_647395038.jpg" alt="저소음 가정용 온풍기" loading="lazy" />
+    <div class="product-badge">54번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">저소음 가정용 온풍기</h3>
+    <p class="product-summary">가정과 사무실에서 사용할 수 있는 저소음 PTC 스탠드 온풍기로 빠르게 따뜻함을 제…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_055/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251202_14/1764633907026ALdah_JPEG/2418911230288605_1249188675.jpg" alt="차량용 초경량 무선청소기" loading="lazy" />
+    <div class="product-badge">55번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">차량용 초경량 무선청소기</h3>
+    <p class="product-summary">좁은 공간과 차량, 원룸 청소에 최적화된 무선 핸디 청소기로 간편하게 청소하세요.</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_056/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250812_259/17549936621890965E_PNG/81486967999075804_618541934.png" alt="강력 무선 진공청소기" loading="lazy" />
+    <div class="product-badge">56번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">강력 무선 진공청소기</h3>
+    <p class="product-summary">가벼운 무선 청소기로 집안 구석구석 손쉽게 청소하세요. 140AW 강력 흡입력에 3…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_057/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240215_292/17079859121505xnDj_JPEG/109121739972719035_130031986.jpg" alt="저소음 사무용 멤브레인 키보드" loading="lazy" />
+    <div class="product-badge">57번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">저소음 사무용 멤브레인 키보드</h3>
+    <p class="product-summary">사무용으로 적합한 저소음 멤브레인 키보드와 투명 실리콘 키스킨 세트로 조용하고 깔끔…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_058/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240215_292/17079859121505xnDj_JPEG/109121739972719035_130031986.jpg" alt="저소음 멤브레인 게이밍 키보드" loading="lazy" />
+    <div class="product-badge">58번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">저소음 멤브레인 게이밍 키보드</h3>
+    <p class="product-summary">저소음 멤브레인과 풀윤활 기능으로 부드럽고 편안한 타건감을 제공하는 게이밍 및 사무…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_059/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20241129_297/17328483143964YXbe_JPEG/14921095412492371_319647656.jpg" alt="사무용 저소음 멤브레인 키보드" loading="lazy" />
+    <div class="product-badge">59번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">사무용 저소음 멤브레인 키보드</h3>
+    <p class="product-summary">저소음 타입의 5세대 멤브레인 키보드로 사무용에 적합하며, 조용한 타건감이 업무 집…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_060/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20241217_285/1734421817729xsGjl_JPEG/68554763848718013_580686861.jpg" alt="알러지 방지 자가발열 패드" loading="lazy" />
+    <div class="product-badge">60번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">알러지 방지 자가발열 패드</h3>
+    <p class="product-summary">민감한 피부도 안심하고 사용할 수 있는 알러지프리 자가발열 극세사 패드로 따뜻하고…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_061/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250324_277/1742798947884NpXGU_JPEG/76931733998516137_1175007394.jpg" alt="포근한 코지 단모 러그" loading="lazy" />
+    <div class="product-badge">61번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">포근한 코지 단모 러그</h3>
+    <p class="product-summary">차가운 바닥을 따뜻하게 보호하는 워셔블 러그로 실내 공간을 아늑하게 만들어줍니다.…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_062/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20220215_148/1644907248123CQ5MB_JPEG/46043136798435759_475255463.jpg" alt="저상형 원목 침대 프레임" loading="lazy" />
+    <div class="product-badge">62번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">저상형 원목 침대 프레임</h3>
+    <p class="product-summary">견고한 소나무 소재의 2단 접이식 원목 침대 프레임으로 공간 활용과 쾌적한 잠자리를…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_063/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250103_186/1735853909606RTMwG_JPEG/16485232410076329_319247054.jpg" alt="사계절 먼지없는 대형 러그" loading="lazy" />
+    <div class="product-badge">63번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">사계절 먼지없는 대형 러그</h3>
+    <p class="product-summary">먼지 없는 사계절용 대형 러그로 쾌적하고 따뜻한 거실 인테리어에 적합하며 세탁도 간…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_064/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240911_232/1726043960560guMeS_JPEG/29600834309618471_1085720924.jpg" alt="사계절 포근 차렵이불" loading="lazy" />
+    <div class="product-badge">64번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">사계절 포근 차렵이불</h3>
+    <p class="product-summary">알러지 걱정 없는 에코 옥수수솜으로 사계절 내내 포근하게 사용할 수 있는 차렵 이불…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_065/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20241114_112/1731563190364xHlO5_JPEG/59945680989044442_289981561.jpg" alt="미니 사진인화 액자" loading="lazy" />
+    <div class="product-badge">65번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">미니 사진인화 액자</h3>
+    <p class="product-summary">작고 귀여운 9x9cm 미니 액자에 핸드폰 사진을 인화하여 웨딩 등 특별한 순간을…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
 </div>
