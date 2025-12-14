@@ -545,4 +545,114 @@ noindex: false
     <div class="product-cta"><span>자세히 보기 →</span></div>
   </div>
 </a>
+<a class="product-card" href="/site_products/product_040/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240222_219/17085750709655ncrM_PNG/109710850683113521_113151619.png" alt="근적외선 온열 손목 발목 패치" loading="lazy" />
+    <div class="product-badge">40번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">근적외선 온열 손목 발목 패치</h3>
+    <p class="product-summary">손목과 발목 통증 완화를 위한 무선 온열 패치로, 근적외선 LED로 찜질 효과를 제…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_041/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20241001_156/17277613467390Hbp7_JPEG/12946312524396113_1597810359.jpg" alt="원적외선 온열찜질팩" loading="lazy" />
+    <div class="product-badge">41번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">원적외선 온열찜질팩</h3>
+    <p class="product-summary">잠온 원적외선 온열찜질기로 생리통과 허리 통증을 부드럽게 완화하세요. 베이지 색상의…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_042/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250417_257/1744897828204fFu0v_JPEG/24836975015592192_1794947346.jpg" alt="수족냉증 전기 찜질기" loading="lazy" />
+    <div class="product-badge">42번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">수족냉증 전기 찜질기</h3>
+    <p class="product-summary">차가운 손발과 반복되는 통증 개선에 효과적인 전기찜질기입니다. 발, 생리통, 허리,…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_043/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240711_52/1720677458765m9s2r_JPEG/67734424059655192_560233155.jpg" alt="참숯 천연온열 찜질매트" loading="lazy" />
+    <div class="product-badge">43번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">참숯 천연온열 찜질매트</h3>
+    <p class="product-summary">천연옥과 맥반석이 포함된 전기 찜질기로 근육 이완과 냉기 해소에 효과적이며 다용도로…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_044/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251107_156/1762483628133tWdKq_PNG/2153083109898866_468317951.png" alt="허리 통증 완화 온찜질기" loading="lazy" />
+    <div class="product-badge">44번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">허리 통증 완화 온찜질기</h3>
+    <p class="product-summary">온쉼 전기 배 찜질기는 집에서 간편하게 사용하는 온열기로 허리 통증 완화에 도움을…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_045/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250121_114/1737445433275q2GUg_JPEG/28789299582442606_257377433.jpg" alt="무선 진동 허리 온열찜질기" loading="lazy" />
+    <div class="product-badge">45번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">무선 진동 허리 온열찜질기</h3>
+    <p class="product-summary">무선 방식으로 편리한 사용이 가능하며, 온열과 진동 기능으로 허리 통증 완화를 돕는…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_046/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251030_218/1761799191348GWYAz_JPEG/86060415742267370_2017281185.jpg" alt="180도 회전 고속충전케이블" loading="lazy" />
+    <div class="product-badge">46번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">180도 회전 고속충전케이블</h3>
+    <p class="product-summary">100W 고속 충전 지원과 180도 회전 기능으로 꼬임 걱정 없이 빠르게 충전할 수…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_047/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251127_254/17642296510689kTSc_JPEG/98362475850349616_23478345.jpg" alt="지문방지 강화유리 2매" loading="lazy" />
+    <div class="product-badge">47번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">지문방지 강화유리 2매</h3>
+    <p class="product-summary">지문방지 기능이 탁월한 아이폰용 강화유리 액정보호필름 2매 세트로 깨끗한 화면을 오…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_048/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251127_152/1764226473564zRp5P_JPEG/24270640699557810_332792624.jpg" alt="지문방지 강화유리 필름 2매" loading="lazy" />
+    <div class="product-badge">48번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">지문방지 강화유리 필름 2매</h3>
+    <p class="product-summary">갤럭시 S25 울트라용 지문방지 강화유리 필름으로 선명한 화면과 강력한 방탄 보호를…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_049/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250114_41/1736853688384NGjTO_JPEG/60809513204200545_1121298826.jpg" alt="무선 안드로이드 오토 연결" loading="lazy" />
+    <div class="product-badge">49번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">무선 안드로이드 오토 연결</h3>
+    <p class="product-summary">차량에서 유튜브와 안드로이드 오토를 무선으로 간편하게 연결해주는 메이튼 무선 안드로…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
 </div>
