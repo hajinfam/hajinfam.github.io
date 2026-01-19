@@ -7607,4 +7607,785 @@ noindex: false
     <div class="product-cta"><span>자세히 보기 →</span></div>
   </div>
 </a>
+<a class="product-card" href="/site_products/product_682/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20230628_78/1687924669614HSJ8W_JPEG/1089944589840563_1767513167.jpg" alt="호텔 부드러운 손타월" loading="lazy" />
+    <div class="product-badge">682번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">호텔 부드러운 손타월</h3>
+    <p class="product-summary">호텔 수건처럼 부드러운 타월로 통화 후 손을 편안하게 닦아주는 제품입니다. 피부 자…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_683/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20230816_293/1692150480888krngp_JPEG/6826070257218395_1868163127.jpg" alt="비타민B12와 아연 3개월분" loading="lazy" />
+    <div class="product-badge">683번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">비타민B12와 아연 3개월분</h3>
+    <p class="product-summary">에너지 증진과 면역력 강화를 위한 비타민B12와 아연 3개월분으로 꾸준한 건강 관리…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_684/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20221116_74/1668557377543UurAY_JPEG/69693212359783973_733947479.jpg" alt="신선한 우대갈비 찜" loading="lazy" />
+    <div class="product-badge">684번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">신선한 우대갈비 찜</h3>
+    <p class="product-summary">캠핑에 딱 맞는 부드럽고 신선한 우대갈비 찜으로 간편하게 맛있는 식사를 즐기세요.…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_685/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251024_87/1761279481661Qx5Me_JPEG/20721100855900162_2100783670.jpg" alt="벽걸이형 컨벡션히터" loading="lazy" />
+    <div class="product-badge">685번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">벽걸이형 컨벡션히터</h3>
+    <p class="product-summary">출퇴근길에도 미리 따뜻함을 준비할 수 있는 공간 절약형 벽걸이 컨벡션히터로 쾌적한…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_686/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240115_236/1705298091421odgzP_PNG/106433871088985342_1953932693.png" alt="부드러운 한우 찜갈비" loading="lazy" />
+    <div class="product-badge">686번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">부드러운 한우 찜갈비</h3>
+    <p class="product-summary">가족과 함께하는 설날, 정성 가득한 한우 찜갈비로 특별한 맛과 행복을 선사하세요.</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_687/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240816_53/1723814121665ghsnG_PNG/70773646461639925_1239251959.png" alt="간편 한우 구이 맛있게" loading="lazy" />
+    <div class="product-badge">687번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">간편 한우 구이 맛있게</h3>
+    <p class="product-summary">출퇴근 후 간편하게 준비할 수 있는 고소한 한우 구이로 하루를 맛있게 마무리하세요.…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_688/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20220916_167/1663277817256BgxfB_JPEG/64413596959806116_1234983577.jpg" alt="6M 연장 배관 세척 호스" loading="lazy" />
+    <div class="product-badge">688번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">6M 연장 배관 세척 호스</h3>
+    <p class="product-summary">6M 연장 호스로 배관 청소가 어려운 부분도 손쉽게 깔끔하게 세척할 수 있어 집안…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_689/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20220915_44/1663195281597l6Bxr_JPEG/64331116413114522_1570410935.jpg" alt="집안 배관 깨끗이 청소" loading="lazy" />
+    <div class="product-badge">689번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">집안 배관 깨끗이 청소</h3>
+    <p class="product-summary">고압세척기로 배관 막힘과 냄새 문제를 간편하게 해결해 보세요. 집안 배관 청소를 쉽…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_690/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250907_55/1757254047088KGtmi_JPEG/10848959219834333_1151914422.jpg" alt="신선한 7.5kg 나주배 세트" loading="lazy" />
+    <div class="product-badge">690번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">신선한 7.5kg 나주배 세트</h3>
+    <p class="product-summary">신선하고 달콤한 나주배 7.5kg 세트로 명절 선물 고민을 해결하세요. 건강한 과일…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_691/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20221118_146/1668748995088DI8je_JPEG/69884778792702594_1294477324.jpg" alt="프리미엄 한우 등심" loading="lazy" />
+    <div class="product-badge">691번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">프리미엄 한우 등심</h3>
+    <p class="product-summary">한우 등심으로 명절 상차림을 더욱 특별하게 완성하세요. 가족과 함께하는 행복한 순간…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_692/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20221229_260/1672300873205Aq3Rw_JPEG/73436708021923847_1060564037.jpg" alt="배관 청소 간편 노즐" loading="lazy" />
+    <div class="product-badge">692번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">배관 청소 간편 노즐</h3>
+    <p class="product-summary">노즐과 호스를 연결해 더러운 배관 청소를 간편하고 효율적으로 해결하세요. 가정용 배…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_693/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251211_72/17654463844670SDju_JPEG/18372445982762337_1641180196.jpg" alt="달콤한 고당도 한라봉" loading="lazy" />
+    <div class="product-badge">693번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">달콤한 고당도 한라봉</h3>
+    <p class="product-summary">상큼하고 달콤한 고당도 한라봉으로 지친 일상에 활력을 더하세요. 건강한 간식으로 인…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_694/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251024_190/1761279824595F2bUi_JPEG/26873173707539593_1421592921.jpg" alt="효율적인 벽걸이 난로" loading="lazy" />
+    <div class="product-badge">694번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">효율적인 벽걸이 난로</h3>
+    <p class="product-summary">출퇴근길 쾌적한 난방을 위한 휴고스 벽걸이 난로는 공간 절약형 디자인과 효율적인 온…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_695/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250826_196/1756172286966NqL4q_JPEG/2313950102036927_1345584054.jpg" alt="프리미엄 한우 설로인 구이" loading="lazy" />
+    <div class="product-badge">695번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">프리미엄 한우 설로인 구이</h3>
+    <p class="product-summary">부드럽고 풍부한 맛의 투뿔한우 설로인으로 가족과 특별한 식사를 즐기세요. 구이용으로…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_696/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20260113_76/1768283373246Um9QI_JPEG/5541569061100749_2047489314.jpg" alt="출퇴근 에너지바 충전" loading="lazy" />
+    <div class="product-badge">696번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">출퇴근 에너지바 충전</h3>
+    <p class="product-summary">바쁜 출퇴근길에 간편하게 먹을 수 있는 에너지바로 지친 몸에 활력을 채워주는 건강…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_697/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251022_77/17610961738270yeF1_JPEG/2203337644051844_1752172532.jpg" alt="상큼한 건강 감귤 간식" loading="lazy" />
+    <div class="product-badge">697번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">상큼한 건강 감귤 간식</h3>
+    <p class="product-summary">상큼한 프리미엄 감귤로 피곤한 출퇴근길에 활력을 더하세요. 간편하게 건강 간식을 즐…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_698/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20260101_82/1767267448808x2DaU_PNG/11766445743486775_1333664845.png" alt="달콤한 시나노골드 사과세트" loading="lazy" />
+    <div class="product-badge">698번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">달콤한 시나노골드 사과세트</h3>
+    <p class="product-summary">설날 맞이 달콤하고 신선한 시나노골드 사과 세트로 특별한 명절 선물을 준비하세요.…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_699/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251209_266/1765245382490zWxUQ_JPEG/14836934153257533_237965246.jpg" alt="상큼한 산지직송 딸기" loading="lazy" />
+    <div class="product-badge">699번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">상큼한 산지직송 딸기</h3>
+    <p class="product-summary">신선한 산지직송 딸기로 출퇴근길 기분 전환하세요. 간편한 간식으로 에너지를 채워줍니…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_700/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250106_117/1736152797355nDvwq_JPEG/70285738497904845_1046362743.jpg" alt="프리미엄 투뿔 소고기" loading="lazy" />
+    <div class="product-badge">700번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">프리미엄 투뿔 소고기</h3>
+    <p class="product-summary">투뿔 소고기로 어버이날 건강과 맛을 동시에 챙길 수 있는 특별한 선물입니다. 정성…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_701/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250106_166/1736150691494QbEPy_JPEG/70283539285086981_951853215.jpg" alt="프리미엄 한우 세트" loading="lazy" />
+    <div class="product-badge">701번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">프리미엄 한우 세트</h3>
+    <p class="product-summary">신선한 1.2kg 한우세트로 명절 선물 고민 없이 감사의 마음을 전하세요. 풍부한…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_702/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251024_185/1761279317936TW155_JPEG/819334742292654_806162743.jpg" alt="공간 절약 벽걸이 히터" loading="lazy" />
+    <div class="product-badge">702번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">공간 절약 벽걸이 히터</h3>
+    <p class="product-summary">좁은 공간에 적합한 벽걸이 히터로 효율적인 난방이 가능합니다. 간편한 설치와 공간…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_703/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20200416_17/1587024838465i3AAj_JPEG/24385577098078436_2090441662.jpg" alt="빠른 출근용 스팀다리미" loading="lazy" />
+    <div class="product-badge">703번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">빠른 출근용 스팀다리미</h3>
+    <p class="product-summary">보만 스팀다리미는 쉽고 빠르게 옷차림을 정리해 매일 아침 출퇴근 준비 시간을 줄여줍…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_704/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250111_42/1736592727976wb9iD_JPEG/20754741779743894_1724877240.jpg" alt="활력 충전 한우 설로인 구이" loading="lazy" />
+    <div class="product-badge">704번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">활력 충전 한우 설로인 구이</h3>
+    <p class="product-summary">출퇴근 후 지친 몸에 든든한 한우 설로인 구이로 에너지 충전과 활력 회복에 도움을…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_705/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20260109_142/1767949226925H6fwM_JPEG/78097676726548975_768366443.jpg" alt="포근한 밍크융털 잠옷" loading="lazy" />
+    <div class="product-badge">705번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">포근한 밍크융털 잠옷</h3>
+    <p class="product-summary">밍크융털 소재로 한겨울에도 따뜻하게 입을 수 있는 수면잠옷으로 편안한 휴식을 도와줍…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_706/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20231206_118/1701841544494QUHgO_JPEG/102977387194511590_93984543.jpg" alt="포근한 밍크 수면바지" loading="lazy" />
+    <div class="product-badge">706번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">포근한 밍크 수면바지</h3>
+    <p class="product-summary">부드러운 이너리즘 밍크 수면바지로 출퇴근 후 편안한 휴식을 즐기세요. 하루 피로를…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_707/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251230_205/1767072008008JwQ0p_PNG/117769532996332599_757614155.png" alt="설날 선물 한우 세트" loading="lazy" />
+    <div class="product-badge">707번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">설날 선물 한우 세트</h3>
+    <p class="product-summary">설날 선물 고민 없이 특별한 한우 세트로 소중한 분께 마음을 전하세요. 고품질 한우…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_708/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251230_205/1767072008008JwQ0p_PNG/117769532996332599_757614155.png" alt="설날 선물 한우 세트" loading="lazy" />
+    <div class="product-badge">708번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">설날 선물 한우 세트</h3>
+    <p class="product-summary">신선한 한우 세트로 설날 선물 고민을 간편하게 해결하세요. 가족과 지인에게 마음을…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_709/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20241018_18/1729235881321h0liH_JPEG/63368816461429016_70990470.jpg" alt="비오는 날 선명한 유리 관리" loading="lazy" />
+    <div class="product-badge">709번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">비오는 날 선명한 유리 관리</h3>
+    <p class="product-summary">비 오는 날에도 선명한 시야를 위한 자동차 유리 관리법으로 안전 운전을 도와드립니다…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_710/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20260112_225/1768218693846i3Nih_JPEG/81707952172063538_694076858.jpg" alt="편안한 휴식 수면잠옷" loading="lazy" />
+    <div class="product-badge">710번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">편안한 휴식 수면잠옷</h3>
+    <p class="product-summary">부드러운 소재로 하루 피로를 풀어주는 수면잠옷으로 편안한 휴식을 돕습니다. 출퇴근…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_711/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20260103_220/1767397746877Yd4oU_PNG/21846957667466438_127974687.png" alt="최상급 마장동 한우 세트" loading="lazy" />
+    <div class="product-badge">711번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">최상급 마장동 한우 세트</h3>
+    <p class="product-summary">설날 가족 선물로 좋은 마장동 한우 선물 세트로 신선하고 풍부한 맛을 즐기세요. 품…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_712/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251105_169/1762302985687lcE7L_JPEG/80606292631494242_399949605.jpg" alt="지친 몸 힐링 한우 선물세트" loading="lazy" />
+    <div class="product-badge">712번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">지친 몸 힐링 한우 선물세트</h3>
+    <p class="product-summary">출퇴근 후 지친 몸에 영양가 높은 구이용 한우 선물세트로 건강과 활력을 채워보세요.…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_713/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20260103_220/1767397746877Yd4oU_PNG/21846957667466438_127974687.png" alt="프리미엄 마장동 한우 세트" loading="lazy" />
+    <div class="product-badge">713번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">프리미엄 마장동 한우 세트</h3>
+    <p class="product-summary">신선하고 부드러운 마장동 한우 선물 세트로 설날 가족의 행복을 가득 채우세요. 고급…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_714/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240708_211/1720395611635zPhvg_JPEG/31289291941500558_1720856556.jpg" alt="투뿔 숙성한우 스테이크" loading="lazy" />
+    <div class="product-badge">714번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">투뿔 숙성한우 스테이크</h3>
+    <p class="product-summary">출퇴근 후 지친 직장인을 위한 풍부한 육즙과 부드러운 식감의 투뿔 숙성한우 스테이크…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_715/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20221205_239/1670227759613vC9kV_JPEG/71363602302792285_1662957356.jpg" alt="포근한 체크 수면바지" loading="lazy" />
+    <div class="product-badge">715번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">포근한 체크 수면바지</h3>
+    <p class="product-summary">이너리즘 체크 수면바지는 부드러운 감촉과 따뜻한 보온성으로 포근한 잠자리를 선사합니…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_716/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240708_59/1720403498896AbObJ_PNG/945707466979107_665950170.png" alt="2kg 대용량 LA갈비" loading="lazy" />
+    <div class="product-badge">716번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">2kg 대용량 LA갈비</h3>
+    <p class="product-summary">2kg 대용량 LA갈비로 가족 모임 걱정 없이 넉넉한 양을 준비하세요. 설날 명절…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_717/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240202_283/1706867245040UizPK_JPEG/108003028724874416_1035578210.jpg" alt="가족과 즐기는 LA갈비" loading="lazy" />
+    <div class="product-badge">717번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">가족과 즐기는 LA갈비</h3>
+    <p class="product-summary">가족 모임에 최적화된 LA갈비로 특별한 맛과 행복을 나누세요. 신선한 재료로 풍미…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_718/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250228_208/1740694115536Xhl34_JPEG/47249825932196547_1421438944.jpg" alt="숙성로스 고기 한 상" loading="lazy" />
+    <div class="product-badge">718번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">숙성로스 고기 한 상</h3>
+    <p class="product-summary">마장동에서 신선하게 숙성한 로스로 풍성하고 특별한 저녁 식사를 즐겨보세요. 고소하고…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_719/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240112_240/17050411800423xifl_PNG/106177022673966491_1564965846.png" alt="프리미엄 한우 선물세트" loading="lazy" />
+    <div class="product-badge">719번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">프리미엄 한우 선물세트</h3>
+    <p class="product-summary">신선한 투뿔 한우로 건강하고 맛있는 출퇴근 도시락을 준비하세요. 소중한 사람과 함께…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_720/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240112_240/17050411800423xifl_PNG/106177022673966491_1564965846.png" alt="프리미엄 투뿔 한우 세트" loading="lazy" />
+    <div class="product-badge">720번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">프리미엄 투뿔 한우 세트</h3>
+    <p class="product-summary">투뿔 한우 선물세트로 출퇴근 도시락을 더욱 특별하게 준비하세요. 신선한 한우로 든든…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_721/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250430_271/17459995425983QQQX_JPEG/89971664727595_583972751.jpg" alt="뒤꿈치 굳은살 간편케어" loading="lazy" />
+    <div class="product-badge">721번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">뒤꿈치 굳은살 간편케어</h3>
+    <p class="product-summary">거칠고 딱딱한 뒤꿈치 굳은살을 집에서도 쉽고 빠르게 매끄럽게 관리하는 풋파일입니다.…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_722/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250111_175/1736597878436V7jNs_JPEG/8565368481611108_1280498002.jpg" alt="신선한 투뿔한우 스테이크" loading="lazy" />
+    <div class="product-badge">722번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">신선한 투뿔한우 스테이크</h3>
+    <p class="product-summary">마장동에서 직송한 신선한 투뿔한우로 집에서 특별한 식사를 즐겨보세요. 고품질 한우를…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_723/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20221221_168/16716003391477ukwz_JPEG/72736227859010256_1495902461.jpg" alt="운동 후 발 각질 제거" loading="lazy" />
+    <div class="product-badge">723번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">운동 후 발 각질 제거</h3>
+    <p class="product-summary">운동으로 거칠어진 발 피부를 부드럽게 관리해주는 뷰티끄랩 투웨이 발각질제거기입니다.…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_724/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250111_184/1736587711088NW09B_JPEG/87791555057789157_1147789636.jpg" alt="포근한 맞춤 호텔수건" loading="lazy" />
+    <div class="product-badge">724번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">포근한 맞춤 호텔수건</h3>
+    <p class="product-summary">매일 아침 부드럽고 흡수력 좋은 맞춤 주문 호텔수건으로 상쾌한 출근 준비를 도와드립…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_725/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251001_250/17592947364724CLgH_JPEG/3538710971471043_1595756783.jpg" alt="포근한 긴팔 수면 잠옷" loading="lazy" />
+    <div class="product-badge">725번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">포근한 긴팔 수면 잠옷</h3>
+    <p class="product-summary">부드러운 긴팔 잠옷으로 출퇴근 후 휴식을 따뜻하고 편안하게 만들어 줍니다. 아늑한…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_726/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251001_26/1759296431456fAeFY_JPEG/9661792553309763_1234632757.jpg" alt="편안한 커플 수면 잠옷" loading="lazy" />
+    <div class="product-badge">726번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">편안한 커플 수면 잠옷</h3>
+    <p class="product-summary">함께 입는 커플 수면 잠옷으로 편안하고 포근한 밤을 보내고 달콤한 홈 데이트를 즐기…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_727/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250106_226/1736150569911uNt3o_JPEG/51159063933769078_295223677.jpg" alt="명절 소중한 투뿔 한우" loading="lazy" />
+    <div class="product-badge">727번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">명절 소중한 투뿔 한우</h3>
+    <p class="product-summary">설 명절 소중한 사람과 함께 즐기는 투뿔 한우로 특별한 순간을 더욱 풍성하게 만드세…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_728/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20230324_238/1679615995648hHgpg_JPEG/qm6Ec_102817_1.jpg" alt="빠른 출근 커피 드립 세트" loading="lazy" />
+    <div class="product-badge">728번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">빠른 출근 커피 드립 세트</h3>
+    <p class="product-summary">출퇴근길 바쁜 아침에도 신선하고 간편하게 즐기는 자동 핸드 드립 커피 세트로 커피…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_729/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20230907_80/1694062474349Gs1Hh_JPEG/1107766880238636_1531823951.jpg" alt="명절 가족 꽃갈비 선물" loading="lazy" />
+    <div class="product-badge">729번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">명절 가족 꽃갈비 선물</h3>
+    <p class="product-summary">소중한 가족과 함께하는 명절에 맛있는 꽃갈비로 특별한 시간을 선사하세요. 고품질 갈…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_730/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20260112_197/1768213792922TxC8s_JPEG/22894527870296529_444502902.jpg" alt="감사 마음 선물 세트" loading="lazy" />
+    <div class="product-badge">730번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">감사 마음 선물 세트</h3>
+    <p class="product-summary">소중한 분들께 감사의 마음을 전하는 명절 선물용 박스입니다. 특별한 마음을 담아 선…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_731/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20260113_223/1768268190266LBwuS_JPEG/4751635388318500_697929344.jpg" alt="구정 맞이 따뜻한 선물세트" loading="lazy" />
+    <div class="product-badge">731번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">구정 맞이 따뜻한 선물세트</h3>
+    <p class="product-summary">설날 분위기를 더욱 따뜻하게 만드는 완벽한 선물세트로 소중한 이에게 마음을 전하세요…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_732/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20251111_89/1762827002459qKPlh_JPEG/2496457400875908_1605784555.jpg" alt="프리미엄 한우 세트" loading="lazy" />
+    <div class="product-badge">732번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">프리미엄 한우 세트</h3>
+    <p class="product-summary">가족과 함께 즐기는 신선한 투뿔 한우 한정세트로 건강하고 특별한 외식을 경험하세요.</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_733/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240528_124/1716880006689a20Pc_JPEG/118015895400020214_724515494.jpg" alt="피로한 발 뒤꿈치 굳은살 제거" loading="lazy" />
+    <div class="product-badge">733번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">피로한 발 뒤꿈치 굳은살 제거</h3>
+    <p class="product-summary">출퇴근으로 지친 발 뒤꿈치의 굳은살을 효과적으로 제거하여 편안함을 선사하는 솔루션입…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_734/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20221229_117/1672297043758sSKrx_JPEG/73432823482644631_616679119.jpg" alt="집안 하수구 청소 호스" loading="lazy" />
+    <div class="product-badge">734번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">집안 하수구 청소 호스</h3>
+    <p class="product-summary">간편하게 하수구 막힘을 해결하는 파이프크리닝호스로 집안 배수관을 청결하게 관리하세요…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_735/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20220812_57/1660267565596YR2l3_JPEG/61403411288097468_1297543586.jpg" alt="집에서 즐기는 부채살" loading="lazy" />
+    <div class="product-badge">735번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">집에서 즐기는 부채살</h3>
+    <p class="product-summary">부드러운 부채살의 진한 풍미를 집에서 간편하게 즐기기 좋은 방법입니다. 가족과 함께…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_736/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250915_63/1757925624009AhsQT_JPEG/92058572165383142_377319152.jpg" alt="아이용 편안한 긴팔 잠옷" loading="lazy" />
+    <div class="product-badge">736번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">아이용 편안한 긴팔 잠옷</h3>
+    <p class="product-summary">아이 통화 중에도 편안한 착용감을 제공하는 긴팔 키즈 수면 잠옷으로 쾌적한 잠자리를…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_737/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20260113_186/1768300012124UaQgP_JPEG/48457631110096998_730051055.jpg" alt="전통장식 명절 선물세트" loading="lazy" />
+    <div class="product-badge">737번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">전통장식 명절 선물세트</h3>
+    <p class="product-summary">전통장식과 함께하는 명절 선물세트로 소중한 마음을 전하세요. 가족과 지인들에게 의미…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_738/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250111_57/1736598055212aFRE2_JPEG/70730970335598878_142773343.jpg" alt="프리미엄 투뿔한우 선물세트" loading="lazy" />
+    <div class="product-badge">738번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">프리미엄 투뿔한우 선물세트</h3>
+    <p class="product-summary">투뿔한우 선물세트로 소중한 분께 감사의 마음을 전하세요. 품질 좋은 한우로 특별한…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_739/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250715_5/1752566911923wSfup_JPEG/36377843888357111_1143029479.jpg" alt="명품 호텔 수건" loading="lazy" />
+    <div class="product-badge">739번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">명품 호텔 수건</h3>
+    <p class="product-summary">출퇴근 후 지친 몸을 감싸주는 브루클린 스타일 명품 호텔 수건으로 부드럽고 쾌적한…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_740/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20260113_233/1768275534281wpa5o_JPEG/78423984006384043_1186804354.jpg" alt="운동용 휴대 에너지바" loading="lazy" />
+    <div class="product-badge">740번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">운동용 휴대 에너지바</h3>
+    <p class="product-summary">운동할 때 간편하게 섭취 가능한 휴대용 에너지바로 빠른 에너지 보충에 적합합니다.…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_741/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240730_69/17223028898088OCMX_JPEG/16690646809654166_465245087.jpg" alt="신선한 고급 기삼전복" loading="lazy" />
+    <div class="product-badge">741번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">신선한 고급 기삼전복</h3>
+    <p class="product-summary">신선한 기삼전복을 고급 포장하여 소중한 분께 특별한 감동을 전하는 선물용 전복입니다…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_742/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250326_201/1742949569579qinqD_JPEG/5926313666178271_1656623347.jpg" alt="신선한 소고기 육회" loading="lazy" />
+    <div class="product-badge">742번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">신선한 소고기 육회</h3>
+    <p class="product-summary">명절에 가족과 함께 신선한 소고기 육회를 즐기며 특별한 시간을 보내세요. 건강하고…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_743/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20220110_76/1641780388882cpX12_JPEG/42916172588825224_442210156.jpg" alt="효과 빠른 발꿈치 각질 제거" loading="lazy" />
+    <div class="product-badge">743번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">효과 빠른 발꿈치 각질 제거</h3>
+    <p class="product-summary">발꿈치 각질 제거기로 간편하게 각질을 관리하고 매끄러운 발 피부를 유지하세요. 사용…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_744/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250129_144/17381230023337npgE_JPEG/49761904351032185_92738464.jpg" alt="호텔식 부드러운 수건" loading="lazy" />
+    <div class="product-badge">744번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">호텔식 부드러운 수건</h3>
+    <p class="product-summary">부드러운 메리츠 수건으로 피부에 편안함을 선사하며, 집에서도 호텔 같은 고급스러운…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_745/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240708_144/1720401268374ixyeY_JPEG/19110258398959642_1120965771.jpg" alt="쾌적한 통기 대나무 수건" loading="lazy" />
+    <div class="product-badge">745번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">쾌적한 통기 대나무 수건</h3>
+    <p class="product-summary">대나무섬유로 제작된 호텔수건으로 땀과 습기를 효과적으로 흡수해 산뜻한 사용감을 제공…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_746/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250915_67/1757925625886FVWr8_JPEG/92058574072473218_222578381.jpg" alt="아이 편안한 수면 잠옷" loading="lazy" />
+    <div class="product-badge">746번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">아이 편안한 수면 잠옷</h3>
+    <p class="product-summary">아이의 편안한 수면을 돕는 포근한 키즈 수면 잠옷으로 밤새 뒤척임 없이 숙면을 지원…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_747/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20260112_178/1768205544586J59t6_JPEG/50635835252722267_1896513983.jpg" alt="고소한 호두 정과 선물세트" loading="lazy" />
+    <div class="product-badge">747번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">고소한 호두 정과 선물세트</h3>
+    <p class="product-summary">고소한 호두 정과가 포함된 한결맛담 명절 선물세트로 건강한 맛과 특별한 마음을 전하…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_748/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250313_72/1741833107914HRtux_JPEG/17019559995477385_1823353566.jpg" alt="편안한 수면 잠옷바지" loading="lazy" />
+    <div class="product-badge">748번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">편안한 수면 잠옷바지</h3>
+    <p class="product-summary">출퇴근 후 지친 몸을 부드럽게 감싸주는 편안한 수면 잠옷바지로 편안한 휴식과 숙면을…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_749/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20250401_121/1743444033935ksete_PNG/5333854596653683_517695447.png" alt="프리미엄 한우 소고기 케이크" loading="lazy" />
+    <div class="product-badge">749번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">프리미엄 한우 소고기 케이크</h3>
+    <p class="product-summary">품격 있는 투뿔 한우 소고기 케이크로 설명절 가족과 친구 선물 고민 끝! 특별한 맛…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_750/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20240820_276/1724142405090gnBBU_PNG/57615273843911422_605455763.png" alt="휴대용 다용도 지압기" loading="lazy" />
+    <div class="product-badge">750번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">휴대용 다용도 지압기</h3>
+    <p class="product-summary">언제 어디서나 간편하게 사용하는 휴대용 다용도 지압기로 바쁜 일상 속 긴장을 풀어줍…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_751/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20230404_151/1680572342593peXH5_JPEG/81708176401642250_467553252.jpg" alt="빗길 안전 유리막코팅" loading="lazy" />
+    <div class="product-badge">751번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">빗길 안전 유리막코팅</h3>
+    <p class="product-summary">비 오는 날 시야 확보가 어려운 분들을 위한 유리막코팅제입니다. 빗길에도 뚜렷한 시…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
+<a class="product-card" href="/site_products/product_752/">
+  <div class="product-thumb">
+    <img src="https://shop-phinf.pstatic.net/20230224_63/1677214255480n6nR0_JPEG/78350039177691536_1887752395.jpg" alt="간편 출퇴근 캡슐커피머신" loading="lazy" />
+    <div class="product-badge">752번</div>
+  </div>
+  <div class="product-body">
+    <h3 class="product-title">간편 출퇴근 캡슐커피머신</h3>
+    <p class="product-summary">바쁜 출퇴근길에도 신속하게 신선한 커피를 즐길 수 있는 CM-6820 캡슐커피머신으…</p>
+    <div class="product-cta"><span>자세히 보기 →</span></div>
+  </div>
+</a>
 </div>
