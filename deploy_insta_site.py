@@ -48,7 +48,7 @@ def run_update_insta_products():
 
     print(f"[STEP 1] {UPDATE_SCRIPT} 실행 중...")
     result = subprocess.run(
-        [sys.executable, UPDATE_SCRIPT],
+        [sys.executable, "-u", UPDATE_SCRIPT],
         cwd=REPO_ROOT,
         text=True,
     )
@@ -75,7 +75,7 @@ def run_generate_md_pages():
 
     print(f"[STEP 2] {MD_SCRIPT} 실행 중 (상품 MD 페이지 생성)...")
     result = subprocess.run(
-        [sys.executable, MD_SCRIPT],
+        [sys.executable, "-u", UPDATE_SCRIPT],
         cwd=REPO_ROOT,
         text=True,
     )

@@ -11,6 +11,7 @@ get_ig_user_id.py
 graph_test.rb
 update_insta_products.py
 sheet_to_excel.py
+sitemap_to_sheets_split.py
 
 # Python cache
 __pycache__/
